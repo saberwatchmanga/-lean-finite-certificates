@@ -1,0 +1,5 @@
+'Sbox.planes_complete' depends on axioms: [propext, Quot.sound]
+'Sbox.G0_exact_plane_maximum' depends on axioms: [propext, Quot.sound]
+'Sbox.G3_exact_plane_maximum' depends on axioms: [propext, Quot.sound]
+'Sbox.same_single_difference_maximum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Sbox.structured_difference_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

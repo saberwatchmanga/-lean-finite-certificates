@@ -1,0 +1,3 @@
+negative-controls/sbox/damaged_difference_table.lean:4:67: error: Tactic `decide` proved that the proposition
+  ∀ (a b : Word), differenceCount G3 a b = damaged a b
+is false

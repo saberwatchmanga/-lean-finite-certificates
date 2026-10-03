@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "lean_version": "Lean (version 4.34.1, x86_64-w64-windows-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "workers": 2,
+  "dependency": "Lean 4.34.1 bundled Std only",
+  "positive_certificates": [
+    "src/weighing/Weighing22.lean",
+    "src/sbox/SboxData.lean",
+    "src/sbox/SboxCertificate.lean"
+  ],
+  "axioms_observed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axioms_allowed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "axiom_targets_required": {
+    "weighing-positive": [
+      "Weighing22.certificate",
+      "Weighing22.exists_symmetric_weighing_22_16"
+    ],
+    "sbox-certificate": [
+      "Sbox.planes_complete",
+      "Sbox.G0_exact_plane_maximum",
+      "Sbox.G3_exact_plane_maximum",
+      "Sbox.same_single_difference_maximum",
+      "Sbox.structured_difference_comparison"
+    ]
+  },
+  "sorryAx_in_positive_builds": false,
+  "negative_controls": [
+    {
+      "family": "weighing",
+      "file": "invalid_alphabet.lean",
+      "status": "rejected on intended false proposition"
+    },
+    {
+      "family": "weighing",
+      "file": "broken_symmetry.lean",
+      "status": "rejected on intended false proposition"
+    },
+    {
+      "family": "weighing",
+      "file": "symmetric_nonorthogonal.lean",
+      "status": "rejected on intended false proposition"
+    },
+    {
+      "family": "sbox",
+      "file": "wrong_maximum.lean",
+      "status": "rejected on intended false proposition"
+    },
+    {
+      "family": "sbox",
+      "file": "damaged_difference_table.lean",
+      "status": "rejected on intended false proposition"
+    },
+    {
+      "family": "sbox",
+      "file": "missing_plane.lean",
+      "status": "rejected on intended false proposition"
+    }
+  ],
+  "commands": [
+    {
+      "label": "weighing-positive",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/Weighing22.olean",
+        "src/weighing/Weighing22.lean"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 14.761,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "sbox-data",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/SboxData.olean",
+        "src/sbox/SboxData.lean"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 6.404,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "sbox-certificate",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/SboxCertificate.olean",
+        "src/sbox/SboxCertificate.lean"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 159.678,
+      "timeout_seconds": 240
+    },
+    {
+      "label": "weighing-invalid_alphabet",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/controls/weighing-invalid_alphabet.olean",
+        "negative-controls/weighing/invalid_alphabet.lean"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 7.915,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "weighing-broken_symmetry",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/controls/weighing-broken_symmetry.olean",
+        "negative-controls/weighing/broken_symmetry.lean"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 7.836,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "weighing-symmetric_nonorthogonal",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/controls/weighing-symmetric_nonorthogonal.olean",
+        "negative-controls/weighing/symmetric_nonorthogonal.lean"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 10.222,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "sbox-wrong_maximum",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/controls/sbox-wrong_maximum.olean",
+        "negative-controls/sbox/wrong_maximum.lean"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 4.154,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "sbox-damaged_difference_table",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/controls/sbox-damaged_difference_table.olean",
+        "negative-controls/sbox/damaged_difference_table.lean"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 8.445,
+      "timeout_seconds": 180
+    },
+    {
+      "label": "sbox-missing_plane",
+      "command": [
+        "lean",
+        "-j",
+        "2",
+        "-o",
+        ".verification-output/run-20261003T072256Z-ac78c27f/controls/sbox-missing_plane.olean",
+        "negative-controls/sbox/missing_plane.lean"
+      ],
+      "returncode": 1,
+      "elapsed_seconds": 6.621,
+      "timeout_seconds": 180
+    }
+  ],
+  "elapsed_seconds": 226.079,
+  "logs": "logs/ (relative to this run directory)"
+}

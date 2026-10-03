@@ -1,0 +1,8 @@
+negative-controls/weighing/invalid_alphabet.lean:53:2: error: Tactic `decide` proved that the proposition
+  ∀ (i j : Fin 22), publishedMatrix i j = -1 ∨ publishedMatrix i j = 0 ∨ publishedMatrix i j = 1
+is false
+negative-controls/weighing/invalid_alphabet.lean:60:2: error: Tactic `decide` proved that the proposition
+  ∀ (i j : Fin 22), rowInner publishedMatrix i j = if i = j then 16 else 0
+is false
+'Weighing22.certificate' depends on axioms: [sorryAx]
+'Weighing22.exists_symmetric_weighing_22_16' depends on axioms: [sorryAx]

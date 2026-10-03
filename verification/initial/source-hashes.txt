@@ -1,0 +1,45 @@
+source: problems/weighing_22_16/lean/Weighing22.lean
+package: src/weighing/Weighing22.lean
+sha256: 02f799eaae63a94147a59af58c6a1f91df69613fe1c68ef66040c52a5c258e70
+byte_identical: true
+
+source: problems/sbox_sdu/lean/SboxData.lean
+package: src/sbox/SboxData.lean
+sha256: 38ba6aaba9167a8e5da9293c9c9b8892d18c995bfbf07fd42fba4a92fb0987da
+byte_identical: true
+
+source: problems/sbox_sdu/lean/SboxCertificate.lean
+package: src/sbox/SboxCertificate.lean
+sha256: 2fbfe6b1ec7897a14b97de65ea44799816a853cac4158b446df1f2c581806f13
+byte_identical: true
+
+source: problems/weighing_22_16/lean/negative_controls/invalid_alphabet.lean
+package: negative-controls/weighing/invalid_alphabet.lean
+sha256: 026473154d6798ff922b75459aee1370ba68ec49f7137e159b012af35c70ce42
+byte_identical: true
+
+source: problems/weighing_22_16/lean/negative_controls/broken_symmetry.lean
+package: negative-controls/weighing/broken_symmetry.lean
+sha256: afe1ccc8d40f70233b9ff24331f213d4a8600e6d77a2a26d9bdf96b9dd71f5d7
+byte_identical: true
+
+source: problems/weighing_22_16/lean/negative_controls/symmetric_nonorthogonal.lean
+package: negative-controls/weighing/symmetric_nonorthogonal.lean
+sha256: 7ff6935a84c49c0b7d0b09acb52dd7facf2f7b3f1518358a3ec207257a90f07f
+byte_identical: true
+
+source: problems/sbox_sdu/lean/negative_controls/wrong_maximum.lean
+package: negative-controls/sbox/wrong_maximum.lean
+sha256: 160562cd335d1b41d84d962f49a1d408ebec605044212f73d6990b4b0f6cd80c
+byte_identical: true
+
+source: problems/sbox_sdu/lean/negative_controls/damaged_difference_table.lean
+package: negative-controls/sbox/damaged_difference_table.lean
+sha256: 0abb87bc66a47e6d74166138fb4e6e0da85e5ee546809966128f57308eca740f
+byte_identical: true
+
+source: problems/sbox_sdu/lean/negative_controls/missing_plane.lean
+package: negative-controls/sbox/missing_plane.lean
+sha256: 19f596f2ada716da4e8b0d7d486105c6590294d262fa0d2064e8ea02e41374d4
+byte_identical: true
+

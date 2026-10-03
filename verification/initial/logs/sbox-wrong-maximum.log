@@ -1,0 +1,3 @@
+negative-controls/sbox/wrong_maximum.lean:3:58: error: Tactic `decide` proved that the proposition
+  score G3 (plane 1 3 5) (plane 1 3 5) ≤ 25
+is false

@@ -1,0 +1,15 @@
+name = "finite-publication-certificates"
+version = "0.1.0"
+defaultTargets = ["Weighing22", "SboxCertificate"]
+
+[[lean_lib]]
+name = "Weighing22"
+srcDir = "src/weighing"
+
+[[lean_lib]]
+name = "SboxData"
+srcDir = "src/sbox"
+
+[[lean_lib]]
+name = "SboxCertificate"
+srcDir = "src/sbox"
