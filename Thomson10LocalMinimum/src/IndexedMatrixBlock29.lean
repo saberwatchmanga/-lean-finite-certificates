@@ -1,0 +1,10 @@
+import IndexedMatrixData
+namespace Thomson10IndexedMatrix
+open Thomson10IndexedDag
+set_option maxRecDepth 65536
+set_option maxHeartbeats 16000000
+theorem IndexedMatrixBlock29_checks : ∀ i : Fin 16,
+    certifiedNode matrixHeightBounds matrixBounds matrixProgram (7424+i.val) = true := by
+  decide +kernel
+#print axioms IndexedMatrixBlock29_checks
+end Thomson10IndexedMatrix

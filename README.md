@@ -1,14 +1,14 @@
-# Finite Lean Certificates
+# Lean Certificates: Finite Results and Thomson N=10
 
 Two standalone Lean certificates for previously published finite results. The package checks the published matrix witness and two published 4-bit S-box representatives. It claims no new mathematical result and makes no claim of first formalization.
 
-## Results
+## Previously published finite results
 
 **Symmetric weighing matrix W(22,16).** The certificate establishes existence of a 22 × 22 symmetric integer matrix with entries in {−1, 0, 1}, with row inner products 16 on the diagonal and 0 off the diagonal (M Mᵀ = 16I). It checks all 484 ordered row pairs and every entry against the alphabet. The witness is transcribed from the cited paper’s Appendix B, Figure 2.
 
 **Two 4-bit S-box representatives, G₀ and G₃.** The Lean certificate proves the ordinary differential maximum is 4 for each. It checks all 140 legal affine planes on each side (19,600 plane pairs) and proves exact raw aggregate maxima 32 for G₀ and 26 for G₃, with witnesses. When zero-containing input planes are included, the maximum normalized aggregate probability is 50% for both. That percentage is contextual finite-count information; the Lean theorem here certifies the raw maxima. These results do not establish optimality over all S-boxes or security of any full cipher.
 
-## Verify
+## Verify the two finite certificates
 
 Install Lean 4.34.1 with bundled Std, then run the standard-library-only Python runner:
 
@@ -26,7 +26,7 @@ The Lean proofs import only bundled Std; no Mathlib, network access, Python proo
 - W(22,16): Christopher D. Rosin, “Using Reasoning Models to Generate Search Heuristics that Solve Open Instances of Combinatorial Design Problems,” arXiv:2505.23881v1 (2025), Appendix B, Figure 2: [arXiv record](https://arxiv.org/abs/2505.23881), [version 1 paper](https://arxiv.org/html/2505.23881v1).
 - S-box results and representatives: Sondre Rønjom, Arne Sandrib, and Joakim Sunde, “Subspace differential uniformity,” *Cryptography and Communications* 18 (2026), 1831–1860, published 22 May 2026, [DOI 10.1007/s12095-026-00896-w](https://doi.org/10.1007/s12095-026-00896-w). The G₀/G₃ representative data are attributed to the authors’ repository at fixed commit [7fe4f154ef64279ca5ba6b2bf9d4735c7a74dd0f](https://github.com/arnesandrib/subspace_equivalence/tree/7fe4f154ef64279ca5ba6b2bf9d4735c7a74dd0f).
 
-The Lean certificates and verification runner are attributed to the GitHub account terry2418. No upstream source code or paper text is included. This package grants no license; the authors’ publications, repositories, and data retain their own terms.
+The Lean certificates and verification runner are attributed to the GitHub account terry2418. No upstream source code or paper text is included. The original finite-certificate package grants no license; the authors’ publications, repositories, and data retain their own terms.
 
 ## 简体中文概览
 
@@ -36,4 +36,15 @@ The Lean certificates and verification runner are attributed to the GitHub accou
 - 4 位 S 盒 G₀、G₃：普通差分计数最大值都为 4。对每侧 140 个合法仿射平面组成的 19,600 对组合，Lean 证明原始总计数最大值分别为 32 和 26，并给出达到最大值的例子。把零所在输入平面也纳入并按输入差分数归一化时，两个代表的最大概率都是 50%；这项归一化数字在此作为有限计数背景，Lean 定理直接证明的是原始计数最大值。
 
 这些 S 盒数字不代表所有 S 盒中的最优性，也不构成整个分组密码安全性的证明。矩阵和 S 盒数据均注明原论文或固定上游提交；本包不含上游代码或论文全文。
+
+
+## Thomson N=10 local minimum
+
+[Thomson10LocalMinimum](Thomson10LocalMinimum/) supplies a separate Lean/Mathlib proof that the ten-charge candidate configuration is a local energy minimum among all nearby unit-sphere configurations. The final theorem proves the existence of an exact height; the strict result is stated in a coordinate slice with overall rotations removed.
+
+**Global minimality is not proved.** This release does not claim a first formalization and does not include unfinished global-search experiments or private research notes.
+
+This subproject uses fixed Lean and Mathlib versions and its own [fresh-build verifier](Thomson10LocalMinimum/verify.py), [source manifest](Thomson10LocalMinimum/source-manifest.json) and [MIT license](Thomson10LocalMinimum/LICENSE). The standard-library-only instructions and original licensing statement above apply to the two finite certificates, not to this new Mathlib subproject.
+
+十电荷成果证明：存在一个经过精确认证的构型，附近任意足够小的球面移动都不能降低能量。它没有证明整个球面上不存在能量更低的其他构型。详细范围和复现方法见[十电荷项目说明](Thomson10LocalMinimum/README.md)。
 

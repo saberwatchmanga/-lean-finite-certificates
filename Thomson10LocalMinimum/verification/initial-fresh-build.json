@@ -1,0 +1,1432 @@
+{
+  "status": "passed",
+  "scope": "local minimum on full nearby unit-sphere configurations; strict minimum on the rotation-fixed slice; global minimum not proved",
+  "started_utc": "2026-10-07T08:04:47.832694+00:00",
+  "completed_utc": "2026-10-07T09:52:22.997569+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "dependency_revisions": [
+    {
+      "name": "plausible",
+      "type": "git",
+      "revision": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+    },
+    {
+      "name": "LeanSearchClient",
+      "type": "git",
+      "revision": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+    },
+    {
+      "name": "importGraph",
+      "type": "git",
+      "revision": "e928b72544873815af278d38681b31c0293588e3"
+    },
+    {
+      "name": "proofwidgets",
+      "type": "git",
+      "revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+    },
+    {
+      "name": "aesop",
+      "type": "git",
+      "revision": "355695d523e41d0554926416cba2a2b3544fbbc9"
+    },
+    {
+      "name": "Qq",
+      "type": "git",
+      "revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+    },
+    {
+      "name": "batteries",
+      "type": "git",
+      "revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+    },
+    {
+      "name": "Cli",
+      "type": "git",
+      "revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    },
+    {
+      "name": "mathlib",
+      "type": "git",
+      "revision": "d13f23b723b8a846827a245b89c10fc7d3f11612"
+    }
+  ],
+  "actual_dependency_revisions_checked": true,
+  "original_modules_rebuilt_from_source": 183,
+  "source_manifest_sha256": "60a0a4488fb6b33281c1f92d1bbbe9811fa52c993d2c52511b15b5c68acdba75",
+  "lake_manifest_sha256": "eae380cbdeb4f7c6947e737ef7398acc3d9f5acb800cb80af82d1fdcb4418a61",
+  "verifier_sha256": "aa2a5be48f77c9909557d86b1a5ef988cbd43a978a3d26f00512b9de5b0168d1",
+  "compiled_project_artifacts_from_earlier_builds_reused": false,
+  "pinned_upstream_artifacts_reused": true,
+  "lean_jobs_per_command": 1,
+  "elapsed_seconds": 6237.126,
+  "main_theorem_axioms": {
+    "Thomson10Stability.certified_full_sphere_local_minimum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Thomson10Stability.certified_gauged_slice_local_minimum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "witness_control_axioms": {
+    "Thomson10PublicWitness.original_node_0_check": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Thomson10PublicWitness.damaged_node_0_check": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "negative_controls": {
+    "false_proposition": "rejected as expected",
+    "damaged_matrix_witness": "rejected at the false checker proposition as expected"
+  },
+  "continued_in_same_fresh_run": true,
+  "prefix_modules_retained_on_continuation": 160,
+  "continuation_verifier_sha256": "9e3b2497f01d45e2be48a75d6b7de5c1b98b706a31dfca7c0b28ed5e4df438a8",
+  "interrupted_attempts": [
+    {
+      "name": "module-142-StagedHTRow14",
+      "exit_code": null,
+      "elapsed_seconds": 7.859,
+      "timed_out": true
+    },
+    {
+      "name": "module-161-PhysicalMatrixReplayRow02",
+      "exit_code": null,
+      "elapsed_seconds": 14.688,
+      "timed_out": true
+    }
+  ],
+  "commands": [
+    {
+      "name": "revision-plausible",
+      "exit_code": 0,
+      "elapsed_seconds": 0.141,
+      "timed_out": false
+    },
+    {
+      "name": "revision-LeanSearchClient",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125,
+      "timed_out": false
+    },
+    {
+      "name": "revision-importGraph",
+      "exit_code": 0,
+      "elapsed_seconds": 0.093,
+      "timed_out": false
+    },
+    {
+      "name": "revision-proofwidgets",
+      "exit_code": 0,
+      "elapsed_seconds": 0.109,
+      "timed_out": false
+    },
+    {
+      "name": "revision-aesop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125,
+      "timed_out": false
+    },
+    {
+      "name": "revision-Qq",
+      "exit_code": 0,
+      "elapsed_seconds": 0.156,
+      "timed_out": false
+    },
+    {
+      "name": "revision-batteries",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125,
+      "timed_out": false
+    },
+    {
+      "name": "revision-Cli",
+      "exit_code": 0,
+      "elapsed_seconds": 0.11,
+      "timed_out": false
+    },
+    {
+      "name": "revision-mathlib",
+      "exit_code": 0,
+      "elapsed_seconds": 0.093,
+      "timed_out": false
+    },
+    {
+      "name": "lean-version",
+      "exit_code": 0,
+      "elapsed_seconds": 0.203,
+      "timed_out": false
+    },
+    {
+      "name": "lake-external-lean-path",
+      "exit_code": 0,
+      "elapsed_seconds": 6.656,
+      "timed_out": false
+    },
+    {
+      "name": "module-001-ArithmeticEnclosures",
+      "exit_code": 0,
+      "elapsed_seconds": 5.641,
+      "timed_out": false
+    },
+    {
+      "name": "module-002-ContinuousCore",
+      "exit_code": 0,
+      "elapsed_seconds": 68.546,
+      "timed_out": false
+    },
+    {
+      "name": "module-003-GeometryCore",
+      "exit_code": 0,
+      "elapsed_seconds": 34.063,
+      "timed_out": false
+    },
+    {
+      "name": "module-004-CoulombDerivatives",
+      "exit_code": 0,
+      "elapsed_seconds": 15.078,
+      "timed_out": false
+    },
+    {
+      "name": "module-005-SpherePaths",
+      "exit_code": 0,
+      "elapsed_seconds": 31.422,
+      "timed_out": false
+    },
+    {
+      "name": "module-006-PhysicalPair",
+      "exit_code": 0,
+      "elapsed_seconds": 31.281,
+      "timed_out": false
+    },
+    {
+      "name": "module-007-RadicalIdentities",
+      "exit_code": 0,
+      "elapsed_seconds": 34.016,
+      "timed_out": false
+    },
+    {
+      "name": "module-008-EnergyBridge",
+      "exit_code": 0,
+      "elapsed_seconds": 37.86,
+      "timed_out": false
+    },
+    {
+      "name": "module-009-SphericalEnergy",
+      "exit_code": 0,
+      "elapsed_seconds": 43.953,
+      "timed_out": false
+    },
+    {
+      "name": "module-010-PairMixedCore",
+      "exit_code": 0,
+      "elapsed_seconds": 36.578,
+      "timed_out": false
+    },
+    {
+      "name": "module-011-MixedEnergy",
+      "exit_code": 0,
+      "elapsed_seconds": 58.688,
+      "timed_out": false
+    },
+    {
+      "name": "module-012-BilinearEnergy",
+      "exit_code": 0,
+      "elapsed_seconds": 35.657,
+      "timed_out": false
+    },
+    {
+      "name": "module-013-EnergyMatrix",
+      "exit_code": 0,
+      "elapsed_seconds": 27.281,
+      "timed_out": false
+    },
+    {
+      "name": "module-014-TwistAnalysis",
+      "exit_code": 0,
+      "elapsed_seconds": 29.578,
+      "timed_out": false
+    },
+    {
+      "name": "module-015-StationarityCore",
+      "exit_code": 0,
+      "elapsed_seconds": 14.359,
+      "timed_out": false
+    },
+    {
+      "name": "module-016-StationarityGeometryCore",
+      "exit_code": 0,
+      "elapsed_seconds": 32.687,
+      "timed_out": false
+    },
+    {
+      "name": "module-017-TangentFrameCore",
+      "exit_code": 0,
+      "elapsed_seconds": 13.969,
+      "timed_out": false
+    },
+    {
+      "name": "module-018-TangentFrames",
+      "exit_code": 0,
+      "elapsed_seconds": 15.407,
+      "timed_out": false
+    },
+    {
+      "name": "module-019-MeridianTable",
+      "exit_code": 0,
+      "elapsed_seconds": 25.093,
+      "timed_out": false
+    },
+    {
+      "name": "module-020-MeridianWeights",
+      "exit_code": 0,
+      "elapsed_seconds": 19.047,
+      "timed_out": false
+    },
+    {
+      "name": "module-021-StationarityGeometry",
+      "exit_code": 0,
+      "elapsed_seconds": 12.157,
+      "timed_out": false
+    },
+    {
+      "name": "module-022-PointVariation",
+      "exit_code": 0,
+      "elapsed_seconds": 14.094,
+      "timed_out": false
+    },
+    {
+      "name": "module-023-IntervalSoundness",
+      "exit_code": 0,
+      "elapsed_seconds": 14.312,
+      "timed_out": false
+    },
+    {
+      "name": "module-024-EndpointBounds",
+      "exit_code": 0,
+      "elapsed_seconds": 13.344,
+      "timed_out": false
+    },
+    {
+      "name": "module-025-MinimizerIntervalCore",
+      "exit_code": 0,
+      "elapsed_seconds": 14.187,
+      "timed_out": false
+    },
+    {
+      "name": "module-026-StationarityBridge",
+      "exit_code": 0,
+      "elapsed_seconds": 13.343,
+      "timed_out": false
+    },
+    {
+      "name": "module-027-RotationKernel",
+      "exit_code": 0,
+      "elapsed_seconds": 15.297,
+      "timed_out": false
+    },
+    {
+      "name": "module-028-RotationGaugeAlgebra",
+      "exit_code": 0,
+      "elapsed_seconds": 14.094,
+      "timed_out": false
+    },
+    {
+      "name": "module-029-SliceMatrix",
+      "exit_code": 0,
+      "elapsed_seconds": 12.375,
+      "timed_out": false
+    },
+    {
+      "name": "module-030-RotationSliceGeometry",
+      "exit_code": 0,
+      "elapsed_seconds": 24.234,
+      "timed_out": false
+    },
+    {
+      "name": "module-031-SphereChartGeometry",
+      "exit_code": 0,
+      "elapsed_seconds": 13.484,
+      "timed_out": false
+    },
+    {
+      "name": "module-032-PhysicalRaySmoothness",
+      "exit_code": 0,
+      "elapsed_seconds": 14.047,
+      "timed_out": false
+    },
+    {
+      "name": "module-033-SliceTangency",
+      "exit_code": 0,
+      "elapsed_seconds": 15.671,
+      "timed_out": false
+    },
+    {
+      "name": "module-034-IntervalDag",
+      "exit_code": 0,
+      "elapsed_seconds": 13.172,
+      "timed_out": false
+    },
+    {
+      "name": "module-035-IndexedIntervalDag",
+      "exit_code": 0,
+      "elapsed_seconds": 12.735,
+      "timed_out": false
+    },
+    {
+      "name": "module-036-IndexedDagEvaluation",
+      "exit_code": 0,
+      "elapsed_seconds": 12.687,
+      "timed_out": false
+    },
+    {
+      "name": "module-037-IndexedMatrixData00",
+      "exit_code": 0,
+      "elapsed_seconds": 17.328,
+      "timed_out": false
+    },
+    {
+      "name": "module-038-IndexedMatrixData01",
+      "exit_code": 0,
+      "elapsed_seconds": 17.25,
+      "timed_out": false
+    },
+    {
+      "name": "module-039-IndexedMatrixData02",
+      "exit_code": 0,
+      "elapsed_seconds": 16.828,
+      "timed_out": false
+    },
+    {
+      "name": "module-040-IndexedMatrixData03",
+      "exit_code": 0,
+      "elapsed_seconds": 17.204,
+      "timed_out": false
+    },
+    {
+      "name": "module-041-IndexedMatrixData04",
+      "exit_code": 0,
+      "elapsed_seconds": 17.343,
+      "timed_out": false
+    },
+    {
+      "name": "module-042-IndexedMatrixData05",
+      "exit_code": 0,
+      "elapsed_seconds": 17.203,
+      "timed_out": false
+    },
+    {
+      "name": "module-043-IndexedMatrixData06",
+      "exit_code": 0,
+      "elapsed_seconds": 17.422,
+      "timed_out": false
+    },
+    {
+      "name": "module-044-IndexedMatrixData07",
+      "exit_code": 0,
+      "elapsed_seconds": 17.266,
+      "timed_out": false
+    },
+    {
+      "name": "module-045-IndexedMatrixData08",
+      "exit_code": 0,
+      "elapsed_seconds": 16.969,
+      "timed_out": false
+    },
+    {
+      "name": "module-046-IndexedMatrixData09",
+      "exit_code": 0,
+      "elapsed_seconds": 17.469,
+      "timed_out": false
+    },
+    {
+      "name": "module-047-IndexedMatrixData10",
+      "exit_code": 0,
+      "elapsed_seconds": 17.312,
+      "timed_out": false
+    },
+    {
+      "name": "module-048-IndexedMatrixData11",
+      "exit_code": 0,
+      "elapsed_seconds": 17.094,
+      "timed_out": false
+    },
+    {
+      "name": "module-049-IndexedMatrixData12",
+      "exit_code": 0,
+      "elapsed_seconds": 16.969,
+      "timed_out": false
+    },
+    {
+      "name": "module-050-IndexedMatrixData13",
+      "exit_code": 0,
+      "elapsed_seconds": 18.562,
+      "timed_out": false
+    },
+    {
+      "name": "module-051-IndexedMatrixData14",
+      "exit_code": 0,
+      "elapsed_seconds": 15.407,
+      "timed_out": false
+    },
+    {
+      "name": "module-052-IndexedMatrixData",
+      "exit_code": 0,
+      "elapsed_seconds": 12.968,
+      "timed_out": false
+    },
+    {
+      "name": "module-053-IndexedMatrixBlock00",
+      "exit_code": 0,
+      "elapsed_seconds": 15.157,
+      "timed_out": false
+    },
+    {
+      "name": "module-054-IndexedMatrixBlock01",
+      "exit_code": 0,
+      "elapsed_seconds": 15.828,
+      "timed_out": false
+    },
+    {
+      "name": "module-055-IndexedMatrixBlock02",
+      "exit_code": 0,
+      "elapsed_seconds": 14.812,
+      "timed_out": false
+    },
+    {
+      "name": "module-056-IndexedMatrixBlock03",
+      "exit_code": 0,
+      "elapsed_seconds": 15.188,
+      "timed_out": false
+    },
+    {
+      "name": "module-057-IndexedMatrixBlock04",
+      "exit_code": 0,
+      "elapsed_seconds": 14.906,
+      "timed_out": false
+    },
+    {
+      "name": "module-058-IndexedMatrixBlock05",
+      "exit_code": 0,
+      "elapsed_seconds": 15.063,
+      "timed_out": false
+    },
+    {
+      "name": "module-059-IndexedMatrixBlock06",
+      "exit_code": 0,
+      "elapsed_seconds": 14.5,
+      "timed_out": false
+    },
+    {
+      "name": "module-060-IndexedMatrixBlock07",
+      "exit_code": 0,
+      "elapsed_seconds": 15.14,
+      "timed_out": false
+    },
+    {
+      "name": "module-061-IndexedMatrixBlock08",
+      "exit_code": 0,
+      "elapsed_seconds": 15.266,
+      "timed_out": false
+    },
+    {
+      "name": "module-062-IndexedMatrixBlock09",
+      "exit_code": 0,
+      "elapsed_seconds": 14.937,
+      "timed_out": false
+    },
+    {
+      "name": "module-063-IndexedMatrixBlock10",
+      "exit_code": 0,
+      "elapsed_seconds": 15.532,
+      "timed_out": false
+    },
+    {
+      "name": "module-064-IndexedMatrixBlock11",
+      "exit_code": 0,
+      "elapsed_seconds": 14.812,
+      "timed_out": false
+    },
+    {
+      "name": "module-065-IndexedMatrixBlock12",
+      "exit_code": 0,
+      "elapsed_seconds": 14.156,
+      "timed_out": false
+    },
+    {
+      "name": "module-066-IndexedMatrixBlock13",
+      "exit_code": 0,
+      "elapsed_seconds": 13.688,
+      "timed_out": false
+    },
+    {
+      "name": "module-067-IndexedMatrixBlock14",
+      "exit_code": 0,
+      "elapsed_seconds": 13.89,
+      "timed_out": false
+    },
+    {
+      "name": "module-068-IndexedMatrixBlock15",
+      "exit_code": 0,
+      "elapsed_seconds": 13.641,
+      "timed_out": false
+    },
+    {
+      "name": "module-069-IndexedMatrixBlock16",
+      "exit_code": 0,
+      "elapsed_seconds": 13.765,
+      "timed_out": false
+    },
+    {
+      "name": "module-070-IndexedMatrixBlock17",
+      "exit_code": 0,
+      "elapsed_seconds": 13.422,
+      "timed_out": false
+    },
+    {
+      "name": "module-071-IndexedMatrixBlock18",
+      "exit_code": 0,
+      "elapsed_seconds": 13.578,
+      "timed_out": false
+    },
+    {
+      "name": "module-072-IndexedMatrixBlock19",
+      "exit_code": 0,
+      "elapsed_seconds": 13.219,
+      "timed_out": false
+    },
+    {
+      "name": "module-073-IndexedMatrixBlock20",
+      "exit_code": 0,
+      "elapsed_seconds": 14.078,
+      "timed_out": false
+    },
+    {
+      "name": "module-074-IndexedMatrixBlock21",
+      "exit_code": 0,
+      "elapsed_seconds": 13.859,
+      "timed_out": false
+    },
+    {
+      "name": "module-075-IndexedMatrixBlock22",
+      "exit_code": 0,
+      "elapsed_seconds": 13.594,
+      "timed_out": false
+    },
+    {
+      "name": "module-076-IndexedMatrixBlock23",
+      "exit_code": 0,
+      "elapsed_seconds": 13.328,
+      "timed_out": false
+    },
+    {
+      "name": "module-077-IndexedMatrixBlock24",
+      "exit_code": 0,
+      "elapsed_seconds": 13.265,
+      "timed_out": false
+    },
+    {
+      "name": "module-078-IndexedMatrixBlock25",
+      "exit_code": 0,
+      "elapsed_seconds": 13.985,
+      "timed_out": false
+    },
+    {
+      "name": "module-079-IndexedMatrixBlock26",
+      "exit_code": 0,
+      "elapsed_seconds": 13.219,
+      "timed_out": false
+    },
+    {
+      "name": "module-080-IndexedMatrixBlock27",
+      "exit_code": 0,
+      "elapsed_seconds": 13.438,
+      "timed_out": false
+    },
+    {
+      "name": "module-081-IndexedMatrixBlock28",
+      "exit_code": 0,
+      "elapsed_seconds": 13.203,
+      "timed_out": false
+    },
+    {
+      "name": "module-082-IndexedMatrixBlock29",
+      "exit_code": 0,
+      "elapsed_seconds": 11.469,
+      "timed_out": false
+    },
+    {
+      "name": "module-083-IndexedMatrixCertificate",
+      "exit_code": 0,
+      "elapsed_seconds": 13.297,
+      "timed_out": false
+    },
+    {
+      "name": "module-084-IndexedMatrixPrimitives",
+      "exit_code": 0,
+      "elapsed_seconds": 21.75,
+      "timed_out": false
+    },
+    {
+      "name": "module-085-DiagonalDominance",
+      "exit_code": 0,
+      "elapsed_seconds": 11.391,
+      "timed_out": false
+    },
+    {
+      "name": "module-086-IntervalDominance",
+      "exit_code": 0,
+      "elapsed_seconds": 11.609,
+      "timed_out": false
+    },
+    {
+      "name": "module-087-IndexedMatrixPositivity",
+      "exit_code": 0,
+      "elapsed_seconds": 12.61,
+      "timed_out": false
+    },
+    {
+      "name": "module-088-CoordinateChangeCertificate",
+      "exit_code": 0,
+      "elapsed_seconds": 22.625,
+      "timed_out": false
+    },
+    {
+      "name": "module-089-CoordinateTransformReplayBase",
+      "exit_code": 0,
+      "elapsed_seconds": 11.454,
+      "timed_out": false
+    },
+    {
+      "name": "module-090-StagedTransformBase",
+      "exit_code": 0,
+      "elapsed_seconds": 11.844,
+      "timed_out": false
+    },
+    {
+      "name": "module-091-StagedTransformSteps00",
+      "exit_code": 0,
+      "elapsed_seconds": 13.391,
+      "timed_out": false
+    },
+    {
+      "name": "module-092-StagedTransformSteps01",
+      "exit_code": 0,
+      "elapsed_seconds": 13.375,
+      "timed_out": false
+    },
+    {
+      "name": "module-093-StagedTransformSteps02",
+      "exit_code": 0,
+      "elapsed_seconds": 13.454,
+      "timed_out": false
+    },
+    {
+      "name": "module-094-StagedTransformSteps03",
+      "exit_code": 0,
+      "elapsed_seconds": 13.687,
+      "timed_out": false
+    },
+    {
+      "name": "module-095-StagedTransformSteps04",
+      "exit_code": 0,
+      "elapsed_seconds": 13.468,
+      "timed_out": false
+    },
+    {
+      "name": "module-096-StagedTransformSteps05",
+      "exit_code": 0,
+      "elapsed_seconds": 13.531,
+      "timed_out": false
+    },
+    {
+      "name": "module-097-StagedTransformSteps06",
+      "exit_code": 0,
+      "elapsed_seconds": 13.438,
+      "timed_out": false
+    },
+    {
+      "name": "module-098-StagedTransformSteps07",
+      "exit_code": 0,
+      "elapsed_seconds": 13.5,
+      "timed_out": false
+    },
+    {
+      "name": "module-099-StagedTransformSteps08",
+      "exit_code": 0,
+      "elapsed_seconds": 13.547,
+      "timed_out": false
+    },
+    {
+      "name": "module-100-StagedTransformSteps09",
+      "exit_code": 0,
+      "elapsed_seconds": 13.25,
+      "timed_out": false
+    },
+    {
+      "name": "module-101-StagedTransformSteps10",
+      "exit_code": 0,
+      "elapsed_seconds": 13.328,
+      "timed_out": false
+    },
+    {
+      "name": "module-102-StagedTransformSteps11",
+      "exit_code": 0,
+      "elapsed_seconds": 13.39,
+      "timed_out": false
+    },
+    {
+      "name": "module-103-StagedTransformSteps12",
+      "exit_code": 0,
+      "elapsed_seconds": 13.782,
+      "timed_out": false
+    },
+    {
+      "name": "module-104-StagedTransformSteps13",
+      "exit_code": 0,
+      "elapsed_seconds": 13.453,
+      "timed_out": false
+    },
+    {
+      "name": "module-105-StagedTransformSteps14",
+      "exit_code": 0,
+      "elapsed_seconds": 13.609,
+      "timed_out": false
+    },
+    {
+      "name": "module-106-StagedTransformSteps15",
+      "exit_code": 0,
+      "elapsed_seconds": 13.453,
+      "timed_out": false
+    },
+    {
+      "name": "module-107-StagedTransformSteps16",
+      "exit_code": 0,
+      "elapsed_seconds": 13.734,
+      "timed_out": false
+    },
+    {
+      "name": "module-108-StagedTransformSteps17",
+      "exit_code": 0,
+      "elapsed_seconds": 13.594,
+      "timed_out": false
+    },
+    {
+      "name": "module-109-StagedTransformSteps18",
+      "exit_code": 0,
+      "elapsed_seconds": 13.719,
+      "timed_out": false
+    },
+    {
+      "name": "module-110-StagedTransformSteps19",
+      "exit_code": 0,
+      "elapsed_seconds": 13.844,
+      "timed_out": false
+    },
+    {
+      "name": "module-111-StagedTransformSteps20",
+      "exit_code": 0,
+      "elapsed_seconds": 13.609,
+      "timed_out": false
+    },
+    {
+      "name": "module-112-StagedTransformSteps21",
+      "exit_code": 0,
+      "elapsed_seconds": 13.594,
+      "timed_out": false
+    },
+    {
+      "name": "module-113-StagedTransformSteps22",
+      "exit_code": 0,
+      "elapsed_seconds": 12.906,
+      "timed_out": false
+    },
+    {
+      "name": "module-114-StagedHTRow00",
+      "exit_code": 0,
+      "elapsed_seconds": 54.062,
+      "timed_out": false
+    },
+    {
+      "name": "module-115-StagedKRow00",
+      "exit_code": 0,
+      "elapsed_seconds": 53.141,
+      "timed_out": false
+    },
+    {
+      "name": "module-116-StagedHTRow01",
+      "exit_code": 0,
+      "elapsed_seconds": 54.266,
+      "timed_out": false
+    },
+    {
+      "name": "module-117-StagedKRow01",
+      "exit_code": 0,
+      "elapsed_seconds": 50.75,
+      "timed_out": false
+    },
+    {
+      "name": "module-118-StagedHTRow02",
+      "exit_code": 0,
+      "elapsed_seconds": 53.484,
+      "timed_out": false
+    },
+    {
+      "name": "module-119-StagedKRow02",
+      "exit_code": 0,
+      "elapsed_seconds": 48.578,
+      "timed_out": false
+    },
+    {
+      "name": "module-120-StagedHTRow03",
+      "exit_code": 0,
+      "elapsed_seconds": 53.718,
+      "timed_out": false
+    },
+    {
+      "name": "module-121-StagedKRow03",
+      "exit_code": 0,
+      "elapsed_seconds": 48.141,
+      "timed_out": false
+    },
+    {
+      "name": "module-122-StagedHTRow04",
+      "exit_code": 0,
+      "elapsed_seconds": 53.734,
+      "timed_out": false
+    },
+    {
+      "name": "module-123-StagedKRow04",
+      "exit_code": 0,
+      "elapsed_seconds": 44.828,
+      "timed_out": false
+    },
+    {
+      "name": "module-124-StagedHTRow05",
+      "exit_code": 0,
+      "elapsed_seconds": 53.875,
+      "timed_out": false
+    },
+    {
+      "name": "module-125-StagedKRow05",
+      "exit_code": 0,
+      "elapsed_seconds": 43.735,
+      "timed_out": false
+    },
+    {
+      "name": "module-126-StagedHTRow06",
+      "exit_code": 0,
+      "elapsed_seconds": 54.39,
+      "timed_out": false
+    },
+    {
+      "name": "module-127-StagedKRow06",
+      "exit_code": 0,
+      "elapsed_seconds": 44.969,
+      "timed_out": false
+    },
+    {
+      "name": "module-128-StagedHTRow07",
+      "exit_code": 0,
+      "elapsed_seconds": 54.031,
+      "timed_out": false
+    },
+    {
+      "name": "module-129-StagedKRow07",
+      "exit_code": 0,
+      "elapsed_seconds": 39.954,
+      "timed_out": false
+    },
+    {
+      "name": "module-130-StagedHTRow08",
+      "exit_code": 0,
+      "elapsed_seconds": 53.859,
+      "timed_out": false
+    },
+    {
+      "name": "module-131-StagedKRow08",
+      "exit_code": 0,
+      "elapsed_seconds": 37.422,
+      "timed_out": false
+    },
+    {
+      "name": "module-132-StagedHTRow09",
+      "exit_code": 0,
+      "elapsed_seconds": 54.015,
+      "timed_out": false
+    },
+    {
+      "name": "module-133-StagedKRow09",
+      "exit_code": 0,
+      "elapsed_seconds": 35.125,
+      "timed_out": false
+    },
+    {
+      "name": "module-134-StagedHTRow10",
+      "exit_code": 0,
+      "elapsed_seconds": 54.313,
+      "timed_out": false
+    },
+    {
+      "name": "module-135-StagedKRow10",
+      "exit_code": 0,
+      "elapsed_seconds": 32.219,
+      "timed_out": false
+    },
+    {
+      "name": "module-136-StagedHTRow11",
+      "exit_code": 0,
+      "elapsed_seconds": 54.734,
+      "timed_out": false
+    },
+    {
+      "name": "module-137-StagedKRow11",
+      "exit_code": 0,
+      "elapsed_seconds": 30.093,
+      "timed_out": false
+    },
+    {
+      "name": "module-138-StagedHTRow12",
+      "exit_code": 0,
+      "elapsed_seconds": 54.422,
+      "timed_out": false
+    },
+    {
+      "name": "module-139-StagedKRow12",
+      "exit_code": 0,
+      "elapsed_seconds": 27.109,
+      "timed_out": false
+    },
+    {
+      "name": "module-140-StagedHTRow13",
+      "exit_code": 0,
+      "elapsed_seconds": 55.438,
+      "timed_out": false
+    },
+    {
+      "name": "module-141-StagedKRow13",
+      "exit_code": 0,
+      "elapsed_seconds": 24.328,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-plausible",
+      "exit_code": 0,
+      "elapsed_seconds": 0.062,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-LeanSearchClient",
+      "exit_code": 0,
+      "elapsed_seconds": 0.079,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-importGraph",
+      "exit_code": 0,
+      "elapsed_seconds": 0.078,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-proofwidgets",
+      "exit_code": 0,
+      "elapsed_seconds": 0.063,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-aesop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.078,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-Qq",
+      "exit_code": 0,
+      "elapsed_seconds": 0.046,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-batteries",
+      "exit_code": 0,
+      "elapsed_seconds": 0.047,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-Cli",
+      "exit_code": 0,
+      "elapsed_seconds": 0.047,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-mathlib",
+      "exit_code": 0,
+      "elapsed_seconds": 0.062,
+      "timed_out": false
+    },
+    {
+      "name": "resume-lean-version",
+      "exit_code": 0,
+      "elapsed_seconds": 0.094,
+      "timed_out": false
+    },
+    {
+      "name": "resume-lake-external-lean-path",
+      "exit_code": 0,
+      "elapsed_seconds": 2.813,
+      "timed_out": false
+    },
+    {
+      "name": "module-142-StagedHTRow14",
+      "exit_code": 0,
+      "elapsed_seconds": 55.391,
+      "timed_out": false
+    },
+    {
+      "name": "module-143-StagedKRow14",
+      "exit_code": 0,
+      "elapsed_seconds": 21.781,
+      "timed_out": false
+    },
+    {
+      "name": "module-144-StagedHTRow15",
+      "exit_code": 0,
+      "elapsed_seconds": 55.266,
+      "timed_out": false
+    },
+    {
+      "name": "module-145-StagedKRow15",
+      "exit_code": 0,
+      "elapsed_seconds": 18.687,
+      "timed_out": false
+    },
+    {
+      "name": "module-146-StagedHTRow16",
+      "exit_code": 0,
+      "elapsed_seconds": 152.079,
+      "timed_out": false
+    },
+    {
+      "name": "module-147-StagedKRow16",
+      "exit_code": 0,
+      "elapsed_seconds": 44.578,
+      "timed_out": false
+    },
+    {
+      "name": "module-148-StagedTransformCertificate",
+      "exit_code": 0,
+      "elapsed_seconds": 35.562,
+      "timed_out": false
+    },
+    {
+      "name": "module-149-CoordinateQuadraticTransfer",
+      "exit_code": 0,
+      "elapsed_seconds": 32.266,
+      "timed_out": false
+    },
+    {
+      "name": "module-150-IndexedMatrixWeights",
+      "exit_code": 0,
+      "elapsed_seconds": 43.515,
+      "timed_out": false
+    },
+    {
+      "name": "module-151-SparseSliceFormula",
+      "exit_code": 0,
+      "elapsed_seconds": 145.704,
+      "timed_out": false
+    },
+    {
+      "name": "module-152-PhysicalMatrixReplayBase",
+      "exit_code": 0,
+      "elapsed_seconds": 33.796,
+      "timed_out": false
+    },
+    {
+      "name": "module-153-PhysicalMatrixReplaySteps00",
+      "exit_code": 0,
+      "elapsed_seconds": 38.235,
+      "timed_out": false
+    },
+    {
+      "name": "module-154-PhysicalMatrixReplaySteps01",
+      "exit_code": 0,
+      "elapsed_seconds": 35.75,
+      "timed_out": false
+    },
+    {
+      "name": "module-155-PhysicalMatrixReplaySteps02",
+      "exit_code": 0,
+      "elapsed_seconds": 35.188,
+      "timed_out": false
+    },
+    {
+      "name": "module-156-PhysicalMatrixReplaySteps03",
+      "exit_code": 0,
+      "elapsed_seconds": 41.031,
+      "timed_out": false
+    },
+    {
+      "name": "module-157-PhysicalMatrixReplaySteps04",
+      "exit_code": 0,
+      "elapsed_seconds": 38.594,
+      "timed_out": false
+    },
+    {
+      "name": "module-158-PhysicalMatrixReplaySteps05",
+      "exit_code": 0,
+      "elapsed_seconds": 32.64,
+      "timed_out": false
+    },
+    {
+      "name": "module-159-PhysicalMatrixReplayRow00",
+      "exit_code": 0,
+      "elapsed_seconds": 146.234,
+      "timed_out": false
+    },
+    {
+      "name": "module-160-PhysicalMatrixReplayRow01",
+      "exit_code": 0,
+      "elapsed_seconds": 125.063,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-plausible",
+      "exit_code": 0,
+      "elapsed_seconds": 0.156,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-LeanSearchClient",
+      "exit_code": 0,
+      "elapsed_seconds": 0.188,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-importGraph",
+      "exit_code": 0,
+      "elapsed_seconds": 0.14,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-proofwidgets",
+      "exit_code": 0,
+      "elapsed_seconds": 0.141,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-aesop",
+      "exit_code": 0,
+      "elapsed_seconds": 0.14,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-Qq",
+      "exit_code": 0,
+      "elapsed_seconds": 0.125,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-batteries",
+      "exit_code": 0,
+      "elapsed_seconds": 0.094,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-Cli",
+      "exit_code": 0,
+      "elapsed_seconds": 0.093,
+      "timed_out": false
+    },
+    {
+      "name": "resume-revision-mathlib",
+      "exit_code": 0,
+      "elapsed_seconds": 0.172,
+      "timed_out": false
+    },
+    {
+      "name": "resume-lean-version",
+      "exit_code": 0,
+      "elapsed_seconds": 0.172,
+      "timed_out": false
+    },
+    {
+      "name": "resume-lake-external-lean-path",
+      "exit_code": 0,
+      "elapsed_seconds": 5.531,
+      "timed_out": false
+    },
+    {
+      "name": "module-161-PhysicalMatrixReplayRow02",
+      "exit_code": 0,
+      "elapsed_seconds": 129.61,
+      "timed_out": false
+    },
+    {
+      "name": "module-162-PhysicalMatrixReplayRow03",
+      "exit_code": 0,
+      "elapsed_seconds": 133.594,
+      "timed_out": false
+    },
+    {
+      "name": "module-163-PhysicalMatrixReplayRow04",
+      "exit_code": 0,
+      "elapsed_seconds": 113.937,
+      "timed_out": false
+    },
+    {
+      "name": "module-164-PhysicalMatrixReplayRow05",
+      "exit_code": 0,
+      "elapsed_seconds": 107.234,
+      "timed_out": false
+    },
+    {
+      "name": "module-165-PhysicalMatrixReplayRow06",
+      "exit_code": 0,
+      "elapsed_seconds": 78.625,
+      "timed_out": false
+    },
+    {
+      "name": "module-166-PhysicalMatrixReplayRow07",
+      "exit_code": 0,
+      "elapsed_seconds": 114.766,
+      "timed_out": false
+    },
+    {
+      "name": "module-167-PhysicalMatrixReplayRow08",
+      "exit_code": 0,
+      "elapsed_seconds": 98.391,
+      "timed_out": false
+    },
+    {
+      "name": "module-168-PhysicalMatrixReplayRow09",
+      "exit_code": 0,
+      "elapsed_seconds": 108.172,
+      "timed_out": false
+    },
+    {
+      "name": "module-169-PhysicalMatrixReplayRow10",
+      "exit_code": 0,
+      "elapsed_seconds": 84.453,
+      "timed_out": false
+    },
+    {
+      "name": "module-170-PhysicalMatrixReplayRow11",
+      "exit_code": 0,
+      "elapsed_seconds": 100.766,
+      "timed_out": false
+    },
+    {
+      "name": "module-171-PhysicalMatrixReplayRow12",
+      "exit_code": 0,
+      "elapsed_seconds": 73.985,
+      "timed_out": false
+    },
+    {
+      "name": "module-172-PhysicalMatrixReplayRow13",
+      "exit_code": 0,
+      "elapsed_seconds": 84.781,
+      "timed_out": false
+    },
+    {
+      "name": "module-173-PhysicalMatrixReplayRow14",
+      "exit_code": 0,
+      "elapsed_seconds": 62.094,
+      "timed_out": false
+    },
+    {
+      "name": "module-174-PhysicalMatrixReplayRow15",
+      "exit_code": 0,
+      "elapsed_seconds": 72.109,
+      "timed_out": false
+    },
+    {
+      "name": "module-175-PhysicalMatrixReplayRow16",
+      "exit_code": 0,
+      "elapsed_seconds": 31.75,
+      "timed_out": false
+    },
+    {
+      "name": "module-176-PhysicalMatrixReplayCertificate",
+      "exit_code": 0,
+      "elapsed_seconds": 28.406,
+      "timed_out": false
+    },
+    {
+      "name": "module-177-PhysicalSlicePositivityCertificate",
+      "exit_code": 0,
+      "elapsed_seconds": 30.032,
+      "timed_out": false
+    },
+    {
+      "name": "module-178-UniformRayMinimum",
+      "exit_code": 0,
+      "elapsed_seconds": 26.485,
+      "timed_out": false
+    },
+    {
+      "name": "module-179-PhysicalUniformRayMinimum",
+      "exit_code": 0,
+      "elapsed_seconds": 28.625,
+      "timed_out": false
+    },
+    {
+      "name": "module-180-SliceLocalMinimum",
+      "exit_code": 0,
+      "elapsed_seconds": 30.125,
+      "timed_out": false
+    },
+    {
+      "name": "module-181-RotationGaugeGeometry",
+      "exit_code": 0,
+      "elapsed_seconds": 47.484,
+      "timed_out": false
+    },
+    {
+      "name": "module-182-RotationGaugeContinuity",
+      "exit_code": 0,
+      "elapsed_seconds": 39.172,
+      "timed_out": false
+    },
+    {
+      "name": "module-183-FullLocalMinimum",
+      "exit_code": 0,
+      "elapsed_seconds": 34.719,
+      "timed_out": false
+    },
+    {
+      "name": "witness-controls",
+      "exit_code": 0,
+      "elapsed_seconds": 31.125,
+      "timed_out": false
+    },
+    {
+      "name": "main-audit",
+      "exit_code": 0,
+      "elapsed_seconds": 33.64,
+      "timed_out": false
+    },
+    {
+      "name": "negative-false-proposition",
+      "exit_code": 1,
+      "elapsed_seconds": 29.0,
+      "timed_out": false
+    },
+    {
+      "name": "negative-damaged-matrix-witness",
+      "exit_code": 1,
+      "elapsed_seconds": 25.469,
+      "timed_out": false
+    }
+  ],
+  "note": "This report records the maintainer Windows run. GitHub CI is an independent check and is not asserted by this report."
+}

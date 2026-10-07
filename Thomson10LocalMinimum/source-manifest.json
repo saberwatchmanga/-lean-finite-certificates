@@ -1,0 +1,1342 @@
+{
+  "root_module": "FullLocalMinimum",
+  "local_module_count": 183,
+  "source_directory": "src",
+  "topological_order_dependency_first": [
+    "ArithmeticEnclosures",
+    "ContinuousCore",
+    "GeometryCore",
+    "CoulombDerivatives",
+    "SpherePaths",
+    "PhysicalPair",
+    "RadicalIdentities",
+    "EnergyBridge",
+    "SphericalEnergy",
+    "PairMixedCore",
+    "MixedEnergy",
+    "BilinearEnergy",
+    "EnergyMatrix",
+    "TwistAnalysis",
+    "StationarityCore",
+    "StationarityGeometryCore",
+    "TangentFrameCore",
+    "TangentFrames",
+    "MeridianTable",
+    "MeridianWeights",
+    "StationarityGeometry",
+    "PointVariation",
+    "IntervalSoundness",
+    "EndpointBounds",
+    "MinimizerIntervalCore",
+    "StationarityBridge",
+    "RotationKernel",
+    "RotationGaugeAlgebra",
+    "SliceMatrix",
+    "RotationSliceGeometry",
+    "SphereChartGeometry",
+    "PhysicalRaySmoothness",
+    "SliceTangency",
+    "IntervalDag",
+    "IndexedIntervalDag",
+    "IndexedDagEvaluation",
+    "IndexedMatrixData00",
+    "IndexedMatrixData01",
+    "IndexedMatrixData02",
+    "IndexedMatrixData03",
+    "IndexedMatrixData04",
+    "IndexedMatrixData05",
+    "IndexedMatrixData06",
+    "IndexedMatrixData07",
+    "IndexedMatrixData08",
+    "IndexedMatrixData09",
+    "IndexedMatrixData10",
+    "IndexedMatrixData11",
+    "IndexedMatrixData12",
+    "IndexedMatrixData13",
+    "IndexedMatrixData14",
+    "IndexedMatrixData",
+    "IndexedMatrixBlock00",
+    "IndexedMatrixBlock01",
+    "IndexedMatrixBlock02",
+    "IndexedMatrixBlock03",
+    "IndexedMatrixBlock04",
+    "IndexedMatrixBlock05",
+    "IndexedMatrixBlock06",
+    "IndexedMatrixBlock07",
+    "IndexedMatrixBlock08",
+    "IndexedMatrixBlock09",
+    "IndexedMatrixBlock10",
+    "IndexedMatrixBlock11",
+    "IndexedMatrixBlock12",
+    "IndexedMatrixBlock13",
+    "IndexedMatrixBlock14",
+    "IndexedMatrixBlock15",
+    "IndexedMatrixBlock16",
+    "IndexedMatrixBlock17",
+    "IndexedMatrixBlock18",
+    "IndexedMatrixBlock19",
+    "IndexedMatrixBlock20",
+    "IndexedMatrixBlock21",
+    "IndexedMatrixBlock22",
+    "IndexedMatrixBlock23",
+    "IndexedMatrixBlock24",
+    "IndexedMatrixBlock25",
+    "IndexedMatrixBlock26",
+    "IndexedMatrixBlock27",
+    "IndexedMatrixBlock28",
+    "IndexedMatrixBlock29",
+    "IndexedMatrixCertificate",
+    "IndexedMatrixPrimitives",
+    "DiagonalDominance",
+    "IntervalDominance",
+    "IndexedMatrixPositivity",
+    "CoordinateChangeCertificate",
+    "CoordinateTransformReplayBase",
+    "StagedTransformBase",
+    "StagedTransformSteps00",
+    "StagedTransformSteps01",
+    "StagedTransformSteps02",
+    "StagedTransformSteps03",
+    "StagedTransformSteps04",
+    "StagedTransformSteps05",
+    "StagedTransformSteps06",
+    "StagedTransformSteps07",
+    "StagedTransformSteps08",
+    "StagedTransformSteps09",
+    "StagedTransformSteps10",
+    "StagedTransformSteps11",
+    "StagedTransformSteps12",
+    "StagedTransformSteps13",
+    "StagedTransformSteps14",
+    "StagedTransformSteps15",
+    "StagedTransformSteps16",
+    "StagedTransformSteps17",
+    "StagedTransformSteps18",
+    "StagedTransformSteps19",
+    "StagedTransformSteps20",
+    "StagedTransformSteps21",
+    "StagedTransformSteps22",
+    "StagedHTRow00",
+    "StagedKRow00",
+    "StagedHTRow01",
+    "StagedKRow01",
+    "StagedHTRow02",
+    "StagedKRow02",
+    "StagedHTRow03",
+    "StagedKRow03",
+    "StagedHTRow04",
+    "StagedKRow04",
+    "StagedHTRow05",
+    "StagedKRow05",
+    "StagedHTRow06",
+    "StagedKRow06",
+    "StagedHTRow07",
+    "StagedKRow07",
+    "StagedHTRow08",
+    "StagedKRow08",
+    "StagedHTRow09",
+    "StagedKRow09",
+    "StagedHTRow10",
+    "StagedKRow10",
+    "StagedHTRow11",
+    "StagedKRow11",
+    "StagedHTRow12",
+    "StagedKRow12",
+    "StagedHTRow13",
+    "StagedKRow13",
+    "StagedHTRow14",
+    "StagedKRow14",
+    "StagedHTRow15",
+    "StagedKRow15",
+    "StagedHTRow16",
+    "StagedKRow16",
+    "StagedTransformCertificate",
+    "CoordinateQuadraticTransfer",
+    "IndexedMatrixWeights",
+    "SparseSliceFormula",
+    "PhysicalMatrixReplayBase",
+    "PhysicalMatrixReplaySteps00",
+    "PhysicalMatrixReplaySteps01",
+    "PhysicalMatrixReplaySteps02",
+    "PhysicalMatrixReplaySteps03",
+    "PhysicalMatrixReplaySteps04",
+    "PhysicalMatrixReplaySteps05",
+    "PhysicalMatrixReplayRow00",
+    "PhysicalMatrixReplayRow01",
+    "PhysicalMatrixReplayRow02",
+    "PhysicalMatrixReplayRow03",
+    "PhysicalMatrixReplayRow04",
+    "PhysicalMatrixReplayRow05",
+    "PhysicalMatrixReplayRow06",
+    "PhysicalMatrixReplayRow07",
+    "PhysicalMatrixReplayRow08",
+    "PhysicalMatrixReplayRow09",
+    "PhysicalMatrixReplayRow10",
+    "PhysicalMatrixReplayRow11",
+    "PhysicalMatrixReplayRow12",
+    "PhysicalMatrixReplayRow13",
+    "PhysicalMatrixReplayRow14",
+    "PhysicalMatrixReplayRow15",
+    "PhysicalMatrixReplayRow16",
+    "PhysicalMatrixReplayCertificate",
+    "PhysicalSlicePositivityCertificate",
+    "UniformRayMinimum",
+    "PhysicalUniformRayMinimum",
+    "SliceLocalMinimum",
+    "RotationGaugeGeometry",
+    "RotationGaugeContinuity",
+    "FullLocalMinimum"
+  ],
+  "sources": [
+    {
+      "module": "ArithmeticEnclosures",
+      "path": "src/ArithmeticEnclosures.lean",
+      "size_bytes": 3841,
+      "sha256": "d90ac6c3486e43c349470b6abf1858b3e10bb9bd385d2c23b0e8e353aff2279b"
+    },
+    {
+      "module": "ContinuousCore",
+      "path": "src/ContinuousCore.lean",
+      "size_bytes": 17303,
+      "sha256": "85cc84aa01837becf4126acae46cbdef9e3ac1b3c3f12deb3ef6f700f7d9f5af"
+    },
+    {
+      "module": "GeometryCore",
+      "path": "src/GeometryCore.lean",
+      "size_bytes": 4847,
+      "sha256": "844f25fe43dfa9faf508851dcc11c22bd7c100599c220887f3fa0266fa9c88a8"
+    },
+    {
+      "module": "CoulombDerivatives",
+      "path": "src/CoulombDerivatives.lean",
+      "size_bytes": 2344,
+      "sha256": "35f204d3cf7596c52da9a1685684634371e1955d03a0dae9e615b813a0aa1b5a"
+    },
+    {
+      "module": "SpherePaths",
+      "path": "src/SpherePaths.lean",
+      "size_bytes": 4559,
+      "sha256": "bdd1db0b0f686751d770eb22775dbfaea0c8acc9ee84753a11da7ac2e449e89b"
+    },
+    {
+      "module": "PhysicalPair",
+      "path": "src/PhysicalPair.lean",
+      "size_bytes": 5040,
+      "sha256": "3f151bdee4c68d1d6b4779c249ab7002ae8e6efb22e0bcfcdd214d62f3b3fe5d"
+    },
+    {
+      "module": "RadicalIdentities",
+      "path": "src/RadicalIdentities.lean",
+      "size_bytes": 2801,
+      "sha256": "8dbc05334ada2a41fc4a3efcb02bf01ac282843618b43214a97c507b90a3cac6"
+    },
+    {
+      "module": "EnergyBridge",
+      "path": "src/EnergyBridge.lean",
+      "size_bytes": 8160,
+      "sha256": "1b2cf8c87602ffb4af06fd33e696b79aab4be7a4f99d364a196abeb4b03b0f1f"
+    },
+    {
+      "module": "SphericalEnergy",
+      "path": "src/SphericalEnergy.lean",
+      "size_bytes": 3698,
+      "sha256": "e7545d3f91d9081bc54a66de239a4d1b6d5200c5f8d48e797b7935aef386ab63"
+    },
+    {
+      "module": "PairMixedCore",
+      "path": "src/PairMixedCore.lean",
+      "size_bytes": 2001,
+      "sha256": "dac1714cb8d130a05ea691a5efb74a786435ff5cc025f36f909e07a0a5461bbb"
+    },
+    {
+      "module": "MixedEnergy",
+      "path": "src/MixedEnergy.lean",
+      "size_bytes": 2236,
+      "sha256": "9a5a493ed9dddffaab3bf3a85ceed1d2a404d0426e39047b76c03ff81edbfdad"
+    },
+    {
+      "module": "BilinearEnergy",
+      "path": "src/BilinearEnergy.lean",
+      "size_bytes": 3817,
+      "sha256": "d58b204acbdc3124cc15f3b73f3742cf54a576ac43cfdff9e90516b34a0a0c93"
+    },
+    {
+      "module": "EnergyMatrix",
+      "path": "src/EnergyMatrix.lean",
+      "size_bytes": 2926,
+      "sha256": "aa4f449c7472abde746d3f41aa1d17953a350ffe9fa61fc4b10eba52b40534d3"
+    },
+    {
+      "module": "TwistAnalysis",
+      "path": "src/TwistAnalysis.lean",
+      "size_bytes": 5749,
+      "sha256": "2d396a9b1a5bccb8731dd7753d5482b5dee00f42c827fa291eb11d69d391324b"
+    },
+    {
+      "module": "StationarityCore",
+      "path": "src/StationarityCore.lean",
+      "size_bytes": 3927,
+      "sha256": "efa38fa6412c303445664bc3ade0f2679da6444e29393a5b605eee86d6e57cbf"
+    },
+    {
+      "module": "StationarityGeometryCore",
+      "path": "src/StationarityGeometryCore.lean",
+      "size_bytes": 4956,
+      "sha256": "3de6065694ad68d44ef5651a4319b6eaa5c129cc7ab8b12442ff6a65a41c27ea"
+    },
+    {
+      "module": "TangentFrameCore",
+      "path": "src/TangentFrameCore.lean",
+      "size_bytes": 1451,
+      "sha256": "3730a44ce008af4f741f6e617b449a1f3ccd5998dceac27d8c29dba8be3ac023"
+    },
+    {
+      "module": "TangentFrames",
+      "path": "src/TangentFrames.lean",
+      "size_bytes": 5475,
+      "sha256": "d8e10b9cc9c63374dc18f76db134255bd673352d2fb9e8317ba085e67be9bbd0"
+    },
+    {
+      "module": "MeridianTable",
+      "path": "src/MeridianTable.lean",
+      "size_bytes": 1760,
+      "sha256": "bed7b646de561342430593e6e4cdd889c3efbb0ae703fdb42675503d06ebd3c3"
+    },
+    {
+      "module": "MeridianWeights",
+      "path": "src/MeridianWeights.lean",
+      "size_bytes": 2972,
+      "sha256": "0ec830d2d2c9882ce898092215867215bc578c9ff39891517632cc6df056b89d"
+    },
+    {
+      "module": "StationarityGeometry",
+      "path": "src/StationarityGeometry.lean",
+      "size_bytes": 918,
+      "sha256": "503c9e6f1a327e5e9c1aa0b13697c541b40ec76f799aa2540279ff5a8abae442"
+    },
+    {
+      "module": "PointVariation",
+      "path": "src/PointVariation.lean",
+      "size_bytes": 3783,
+      "sha256": "7839be93500309742fcc0d76070149cc8d03c7e1a8f40811b8f1026f430dd6e6"
+    },
+    {
+      "module": "IntervalSoundness",
+      "path": "src/IntervalSoundness.lean",
+      "size_bytes": 11427,
+      "sha256": "e40c57f11b2290bd90eb9fa478dabff2d0bda2d55bef1c52e85d8dd68135b7db"
+    },
+    {
+      "module": "EndpointBounds",
+      "path": "src/EndpointBounds.lean",
+      "size_bytes": 6421,
+      "sha256": "85d0d0185ad6ca1c1fcd909e6807c3358c222a7ef6ea8b986e1d83a09535613c"
+    },
+    {
+      "module": "MinimizerIntervalCore",
+      "path": "src/MinimizerIntervalCore.lean",
+      "size_bytes": 2958,
+      "sha256": "4f1b16d62769bc19273879d7b392d1e2d762a7a63f3dade1c9f40323412e5fe8"
+    },
+    {
+      "module": "StationarityBridge",
+      "path": "src/StationarityBridge.lean",
+      "size_bytes": 4370,
+      "sha256": "699f3548b2097159ee197fe0f4b7eae08a6d13388376ceb128a01260794d4e22"
+    },
+    {
+      "module": "RotationKernel",
+      "path": "src/RotationKernel.lean",
+      "size_bytes": 4447,
+      "sha256": "89fd3b59dc664dcae1c2a21283015afaca370210fb5e1c5065a457192b93b73f"
+    },
+    {
+      "module": "RotationGaugeAlgebra",
+      "path": "src/RotationGaugeAlgebra.lean",
+      "size_bytes": 4105,
+      "sha256": "1a1b6a7de376172ee337a12723eee4d97c42d211d8423bf7a3c10a2fe86ef378"
+    },
+    {
+      "module": "SliceMatrix",
+      "path": "src/SliceMatrix.lean",
+      "size_bytes": 3643,
+      "sha256": "43ec4b7564c2bb2682aca3b9a794cdd9dd1616bb186968b55abd6a2642dcb7ca"
+    },
+    {
+      "module": "RotationSliceGeometry",
+      "path": "src/RotationSliceGeometry.lean",
+      "size_bytes": 3907,
+      "sha256": "2ee65ae8e6ca5dd1eb4f59d6c2bd9823384f181ff1e0ce86a49812bbb8e86ee3"
+    },
+    {
+      "module": "SphereChartGeometry",
+      "path": "src/SphereChartGeometry.lean",
+      "size_bytes": 3285,
+      "sha256": "bf998c4fb23ac4701a75d47af0fcb94b5dd85752a06ae304848eb391e063ee55"
+    },
+    {
+      "module": "PhysicalRaySmoothness",
+      "path": "src/PhysicalRaySmoothness.lean",
+      "size_bytes": 5266,
+      "sha256": "1f22c51599953293b4ba6aae65f7443bd47b90a3f23d5beaba87516c5a44918e"
+    },
+    {
+      "module": "SliceTangency",
+      "path": "src/SliceTangency.lean",
+      "size_bytes": 1975,
+      "sha256": "6523ce5e678a12eb733728cd72918a356a431fa0650736b614cecb1415923fe6"
+    },
+    {
+      "module": "IntervalDag",
+      "path": "src/IntervalDag.lean",
+      "size_bytes": 8303,
+      "sha256": "8d37144b5853925df96821e632afa77b1309c2d8ff0b518829f5f6114977131e"
+    },
+    {
+      "module": "IndexedIntervalDag",
+      "path": "src/IndexedIntervalDag.lean",
+      "size_bytes": 4833,
+      "sha256": "63766f64904e792bc34d4a8a5e75e54036849cb20a4bd6059effe6727d439d5b"
+    },
+    {
+      "module": "IndexedDagEvaluation",
+      "path": "src/IndexedDagEvaluation.lean",
+      "size_bytes": 2801,
+      "sha256": "40a946e62a98bde7b3ca9f8f479c0254a4f300edab5b0f7baf98272b4da7728c"
+    },
+    {
+      "module": "IndexedMatrixData00",
+      "path": "src/IndexedMatrixData00.lean",
+      "size_bytes": 87422,
+      "sha256": "40313e264754e3fad768a83dccc39619133931fee293df4cc5b563f90660a583"
+    },
+    {
+      "module": "IndexedMatrixData01",
+      "path": "src/IndexedMatrixData01.lean",
+      "size_bytes": 89214,
+      "sha256": "186069e18ef10744d2b340355964e3bb8e931c31ffe4ffe6b1b2e800499b0cb8"
+    },
+    {
+      "module": "IndexedMatrixData02",
+      "path": "src/IndexedMatrixData02.lean",
+      "size_bytes": 89442,
+      "sha256": "bb4897420c858b8ef6ebdcb23deb85cd661ef879fe4f42db52f9a31e4a842531"
+    },
+    {
+      "module": "IndexedMatrixData03",
+      "path": "src/IndexedMatrixData03.lean",
+      "size_bytes": 82304,
+      "sha256": "b107dda8a48409fb9538ba014af57ff6b37deca2090713337260fdce0c813814"
+    },
+    {
+      "module": "IndexedMatrixData04",
+      "path": "src/IndexedMatrixData04.lean",
+      "size_bytes": 91730,
+      "sha256": "45b7777a6e8194a3af6d98c297505ada967e2dfa96ce05f4cfcd952c8bc0482e"
+    },
+    {
+      "module": "IndexedMatrixData05",
+      "path": "src/IndexedMatrixData05.lean",
+      "size_bytes": 91509,
+      "sha256": "fdff963dcec055406080f7f667fc9e83e20a38ac87f3d39d742e8e41a638e41e"
+    },
+    {
+      "module": "IndexedMatrixData06",
+      "path": "src/IndexedMatrixData06.lean",
+      "size_bytes": 91481,
+      "sha256": "34ef3f03586734f66e9c76414ca6b4bdfd6f8e6786d957017edd5a1ec696c81c"
+    },
+    {
+      "module": "IndexedMatrixData07",
+      "path": "src/IndexedMatrixData07.lean",
+      "size_bytes": 91748,
+      "sha256": "dd9eab34e722dbbbb27c2e9ddead7293ba99a90127e0ca2758ca8f942b46a2cf"
+    },
+    {
+      "module": "IndexedMatrixData08",
+      "path": "src/IndexedMatrixData08.lean",
+      "size_bytes": 91666,
+      "sha256": "23f80ef96e60acfbd509da8b819f16eadfbd040be693ac697c3a53492e773195"
+    },
+    {
+      "module": "IndexedMatrixData09",
+      "path": "src/IndexedMatrixData09.lean",
+      "size_bytes": 91895,
+      "sha256": "b47dfa895a19b270f459fee9161ece5a695a1c485ef8bd5c063695f1c447b53d"
+    },
+    {
+      "module": "IndexedMatrixData10",
+      "path": "src/IndexedMatrixData10.lean",
+      "size_bytes": 91725,
+      "sha256": "0cae8bf13d21fc74f7d062845d26f8923e2d8fe5484dbd01ed47e81cdf245d5a"
+    },
+    {
+      "module": "IndexedMatrixData11",
+      "path": "src/IndexedMatrixData11.lean",
+      "size_bytes": 90282,
+      "sha256": "774b5da5b5e958a64f5b3f8fe02facce5de47eec7b4356bd62d5f9fb9d066d98"
+    },
+    {
+      "module": "IndexedMatrixData12",
+      "path": "src/IndexedMatrixData12.lean",
+      "size_bytes": 88752,
+      "sha256": "c6f2ca71d114f068c30e4922d31eaa2a6150604b69b1326131761d7bdb279e1b"
+    },
+    {
+      "module": "IndexedMatrixData13",
+      "path": "src/IndexedMatrixData13.lean",
+      "size_bytes": 89340,
+      "sha256": "ad9255416d779d6d45cc917fa6f7224ea708d7aac8176189617e8f705428265a"
+    },
+    {
+      "module": "IndexedMatrixData14",
+      "path": "src/IndexedMatrixData14.lean",
+      "size_bytes": 47860,
+      "sha256": "f1ce58e9b89d8edd013d89cf230f488b809dc15ed615aab74222d0bb0ec6a06d"
+    },
+    {
+      "module": "IndexedMatrixData",
+      "path": "src/IndexedMatrixData.lean",
+      "size_bytes": 2181,
+      "sha256": "2a5024ffa6338507b09ce6fc4809364952a32c1136370ccddf7481996be13706"
+    },
+    {
+      "module": "IndexedMatrixBlock00",
+      "path": "src/IndexedMatrixBlock00.lean",
+      "size_bytes": 384,
+      "sha256": "f272930b9c1540fe495cb4f8d944a2385ce0f66a595ba68ac75f58ac5dd9242d"
+    },
+    {
+      "module": "IndexedMatrixBlock01",
+      "path": "src/IndexedMatrixBlock01.lean",
+      "size_bytes": 386,
+      "sha256": "445df490de6e6accfbda73082dbbf67d7ac0094c06af6dd491bc0340ceacb143"
+    },
+    {
+      "module": "IndexedMatrixBlock02",
+      "path": "src/IndexedMatrixBlock02.lean",
+      "size_bytes": 386,
+      "sha256": "2ae939d4d3a3fdbe78f4f91b96dc0a3b9c5b5f153b55414969d3fa65bdcc6bd0"
+    },
+    {
+      "module": "IndexedMatrixBlock03",
+      "path": "src/IndexedMatrixBlock03.lean",
+      "size_bytes": 386,
+      "sha256": "56cdfd3dccd75770bd71731d6c103d77ec1b586a72b7a7c63f70557cb9342eb8"
+    },
+    {
+      "module": "IndexedMatrixBlock04",
+      "path": "src/IndexedMatrixBlock04.lean",
+      "size_bytes": 387,
+      "sha256": "22701a3ed27d7655abd3d15d5cdb7c7dcf4dd411239d1986fd649f9cb99a8cb1"
+    },
+    {
+      "module": "IndexedMatrixBlock05",
+      "path": "src/IndexedMatrixBlock05.lean",
+      "size_bytes": 387,
+      "sha256": "7a611ba282d7ddb9aa455bd17607d2973c15b707ac4f19c7c0f369ec077fe0f3"
+    },
+    {
+      "module": "IndexedMatrixBlock06",
+      "path": "src/IndexedMatrixBlock06.lean",
+      "size_bytes": 387,
+      "sha256": "cd553c5093e37eb020cd21e92f28dd43fcd11fe7f8679146e187cb2203897f7f"
+    },
+    {
+      "module": "IndexedMatrixBlock07",
+      "path": "src/IndexedMatrixBlock07.lean",
+      "size_bytes": 387,
+      "sha256": "c560785aa2bf07bf176e3558e66436e4d9e411ac5e020f6d12d558e12687b3ba"
+    },
+    {
+      "module": "IndexedMatrixBlock08",
+      "path": "src/IndexedMatrixBlock08.lean",
+      "size_bytes": 387,
+      "sha256": "b8347dd3e4990960834f63ad5b50d97884e9ad21a9d49206993ef3ba266ecb31"
+    },
+    {
+      "module": "IndexedMatrixBlock09",
+      "path": "src/IndexedMatrixBlock09.lean",
+      "size_bytes": 387,
+      "sha256": "386552596cb17d037072a3cd906d482aebae7eedacd89522abc2afd2aa3499d3"
+    },
+    {
+      "module": "IndexedMatrixBlock10",
+      "path": "src/IndexedMatrixBlock10.lean",
+      "size_bytes": 387,
+      "sha256": "29796fbae218a2fb3037f83d831dc5bc9ab857f8bec4046e7f83e9d05ac4a09e"
+    },
+    {
+      "module": "IndexedMatrixBlock11",
+      "path": "src/IndexedMatrixBlock11.lean",
+      "size_bytes": 387,
+      "sha256": "62e8fbf4f9a79234be974559c488c03302c9415bf984b4ab98fedfd42276fae0"
+    },
+    {
+      "module": "IndexedMatrixBlock12",
+      "path": "src/IndexedMatrixBlock12.lean",
+      "size_bytes": 387,
+      "sha256": "1d0da4a3ef20f46ab805444c63e3958e218b09fb7ec34b442488bbede2f44fd1"
+    },
+    {
+      "module": "IndexedMatrixBlock13",
+      "path": "src/IndexedMatrixBlock13.lean",
+      "size_bytes": 387,
+      "sha256": "e79db7f510d95261bee65552bfa967060419fe683f7ce12d429ff2e61b844c1e"
+    },
+    {
+      "module": "IndexedMatrixBlock14",
+      "path": "src/IndexedMatrixBlock14.lean",
+      "size_bytes": 387,
+      "sha256": "59a74fcad2ce5fb9999796584389a2e5f14a4d03f220b9f9eb35d68bccdbb454"
+    },
+    {
+      "module": "IndexedMatrixBlock15",
+      "path": "src/IndexedMatrixBlock15.lean",
+      "size_bytes": 387,
+      "sha256": "5b2eea35f1b7ef953a776a929f70f96e8eaac4a3103f1a9a47c17bb12f60f9e8"
+    },
+    {
+      "module": "IndexedMatrixBlock16",
+      "path": "src/IndexedMatrixBlock16.lean",
+      "size_bytes": 387,
+      "sha256": "b35b0f56246da8afbb98658d84af5ad0c2f1fcad20c26217e55fb5e825630820"
+    },
+    {
+      "module": "IndexedMatrixBlock17",
+      "path": "src/IndexedMatrixBlock17.lean",
+      "size_bytes": 387,
+      "sha256": "6214ed8c74a38c752a2101aaea3d3c6abf7167841dedb8758e4e702e47340788"
+    },
+    {
+      "module": "IndexedMatrixBlock18",
+      "path": "src/IndexedMatrixBlock18.lean",
+      "size_bytes": 387,
+      "sha256": "32c6dd81d097531c2869929541acc6e7205625ec1d1d6c7f3b15ea0c4c7d23d6"
+    },
+    {
+      "module": "IndexedMatrixBlock19",
+      "path": "src/IndexedMatrixBlock19.lean",
+      "size_bytes": 387,
+      "sha256": "35f0d4baa905b3d638f69d2b4b977a74a6aa972a279260eccf2035a0b645399e"
+    },
+    {
+      "module": "IndexedMatrixBlock20",
+      "path": "src/IndexedMatrixBlock20.lean",
+      "size_bytes": 387,
+      "sha256": "048e95b7706f08d2e08420a281cf2edb904c3b8dae9169df321c3a0192f82c49"
+    },
+    {
+      "module": "IndexedMatrixBlock21",
+      "path": "src/IndexedMatrixBlock21.lean",
+      "size_bytes": 387,
+      "sha256": "647fbe7811aaaba589f6b474ba2f270461a10038b0a910c4d5be8750d2f56d8e"
+    },
+    {
+      "module": "IndexedMatrixBlock22",
+      "path": "src/IndexedMatrixBlock22.lean",
+      "size_bytes": 387,
+      "sha256": "568c6abd3511fd7d9c6c915113c401bbaad269dc7b4ad22efe1ec745542662c2"
+    },
+    {
+      "module": "IndexedMatrixBlock23",
+      "path": "src/IndexedMatrixBlock23.lean",
+      "size_bytes": 387,
+      "sha256": "42e86d1b34ad608df5a14d4a6b940dcd0132ad2ed62c791790c299a0a6e5f60b"
+    },
+    {
+      "module": "IndexedMatrixBlock24",
+      "path": "src/IndexedMatrixBlock24.lean",
+      "size_bytes": 387,
+      "sha256": "fb031f46293aba05750af2aa80d4d5511a632b0e79b021e1c83cfc51076d50d5"
+    },
+    {
+      "module": "IndexedMatrixBlock25",
+      "path": "src/IndexedMatrixBlock25.lean",
+      "size_bytes": 387,
+      "sha256": "4ade397a1333c84fd8cfde295ba3776ef218bac8490c62b976c4f17085bb8694"
+    },
+    {
+      "module": "IndexedMatrixBlock26",
+      "path": "src/IndexedMatrixBlock26.lean",
+      "size_bytes": 387,
+      "sha256": "7e49ebc04c7426c1e9fea85e1584a6234261448f04b8d9238eabead23e98251a"
+    },
+    {
+      "module": "IndexedMatrixBlock27",
+      "path": "src/IndexedMatrixBlock27.lean",
+      "size_bytes": 387,
+      "sha256": "e4622072c82e609de8d2e4be7271327294af9d3d5b59aa18b6247ae470a2b842"
+    },
+    {
+      "module": "IndexedMatrixBlock28",
+      "path": "src/IndexedMatrixBlock28.lean",
+      "size_bytes": 387,
+      "sha256": "2bb376c9267748f2387941982a7b6005282e02f6b74b1f574110f25e3b498110"
+    },
+    {
+      "module": "IndexedMatrixBlock29",
+      "path": "src/IndexedMatrixBlock29.lean",
+      "size_bytes": 386,
+      "sha256": "61ce7882e03cd2ef9d86716727fd3771e617943abf4643334e6d084266e71d38"
+    },
+    {
+      "module": "IndexedMatrixCertificate",
+      "path": "src/IndexedMatrixCertificate.lean",
+      "size_bytes": 19175,
+      "sha256": "9fe227e7f7b9f3c6ce97f10af534e16a112098f20fb638a599eaf7775cfe0369"
+    },
+    {
+      "module": "IndexedMatrixPrimitives",
+      "path": "src/IndexedMatrixPrimitives.lean",
+      "size_bytes": 55339,
+      "sha256": "94ed215101cb44f8b32fa08c2a68580847b4cd07a0f64dc53b6f1c1c1a936cb1"
+    },
+    {
+      "module": "DiagonalDominance",
+      "path": "src/DiagonalDominance.lean",
+      "size_bytes": 3843,
+      "sha256": "20da35cff68ecb734e8b6ecce139393498e13cdce79a49c5609d4f43d7accb5d"
+    },
+    {
+      "module": "IntervalDominance",
+      "path": "src/IntervalDominance.lean",
+      "size_bytes": 2200,
+      "sha256": "63306dbb69ab577290332733e77c6bafcc9644c5bcc4a38dbd70560ed1cf837f"
+    },
+    {
+      "module": "IndexedMatrixPositivity",
+      "path": "src/IndexedMatrixPositivity.lean",
+      "size_bytes": 7512,
+      "sha256": "73c9095f95e4c473c1288f070a398c51a8358cececd9d20bde050dfe3310699d"
+    },
+    {
+      "module": "CoordinateChangeCertificate",
+      "path": "src/CoordinateChangeCertificate.lean",
+      "size_bytes": 22566,
+      "sha256": "d8c3f1c95ae7ad1c76f1003edc00b9e6df8eb871137b08c2f62e72b2b01c5bb1"
+    },
+    {
+      "module": "CoordinateTransformReplayBase",
+      "path": "src/CoordinateTransformReplayBase.lean",
+      "size_bytes": 6589,
+      "sha256": "f001448cb3f28f51689d28ea582d8d56e149d56caa719a1284d8365749dd1595"
+    },
+    {
+      "module": "StagedTransformBase",
+      "path": "src/StagedTransformBase.lean",
+      "size_bytes": 7206,
+      "sha256": "d96359e158288ceb7431a4634c60b32050a273fa7e46516802bc8ada3d971fe7"
+    },
+    {
+      "module": "StagedTransformSteps00",
+      "path": "src/StagedTransformSteps00.lean",
+      "size_bytes": 49213,
+      "sha256": "cc3010bcb681462c3b1f8f492e6ba0ccb2b7c5126689395ee01738462fe82df4"
+    },
+    {
+      "module": "StagedTransformSteps01",
+      "path": "src/StagedTransformSteps01.lean",
+      "size_bytes": 51959,
+      "sha256": "225b03ec64dbfab057a89f8027fb383ede4d24f94ae8cabb58cc724e088176d0"
+    },
+    {
+      "module": "StagedTransformSteps02",
+      "path": "src/StagedTransformSteps02.lean",
+      "size_bytes": 53122,
+      "sha256": "fbf7e290b9bb133119ded5ef97acda9a81d1378155c8ed7c5617b9af08e042d3"
+    },
+    {
+      "module": "StagedTransformSteps03",
+      "path": "src/StagedTransformSteps03.lean",
+      "size_bytes": 53123,
+      "sha256": "9a6d622cd2bbe0a704b3ba597226c0c7d26446de63bb9170e887c1f9d08e21fd"
+    },
+    {
+      "module": "StagedTransformSteps04",
+      "path": "src/StagedTransformSteps04.lean",
+      "size_bytes": 53125,
+      "sha256": "75e517ee8919c3c7ed4d58b546ec25120594427d444e3fe8a3298602a92adaab"
+    },
+    {
+      "module": "StagedTransformSteps05",
+      "path": "src/StagedTransformSteps05.lean",
+      "size_bytes": 53126,
+      "sha256": "a1d9e16f3220c47519e975457a755d94a120f03d8672f32fea9c5daf4b620f07"
+    },
+    {
+      "module": "StagedTransformSteps06",
+      "path": "src/StagedTransformSteps06.lean",
+      "size_bytes": 53124,
+      "sha256": "aa90c1cc451a5dc64afe4c2b48e972252bf5d7880303adbbc7da845c77d98631"
+    },
+    {
+      "module": "StagedTransformSteps07",
+      "path": "src/StagedTransformSteps07.lean",
+      "size_bytes": 53129,
+      "sha256": "0f944c9360644a31fba80c3f09a7e81103a49fdc3c50fe261d07bf809b2340bd"
+    },
+    {
+      "module": "StagedTransformSteps08",
+      "path": "src/StagedTransformSteps08.lean",
+      "size_bytes": 53118,
+      "sha256": "888f0f88a591d7c64e3427afb31029bbe2da4ee2afd327d5113525787757622c"
+    },
+    {
+      "module": "StagedTransformSteps09",
+      "path": "src/StagedTransformSteps09.lean",
+      "size_bytes": 53144,
+      "sha256": "273c06a0f696f3b9b08e880705a9b5d4de59346619fde28fe32a9ba8611e85ca"
+    },
+    {
+      "module": "StagedTransformSteps10",
+      "path": "src/StagedTransformSteps10.lean",
+      "size_bytes": 53144,
+      "sha256": "d66cc2c539b6da31e4eced5aaea260e0be30db611753631ae5fbbe3d227769e6"
+    },
+    {
+      "module": "StagedTransformSteps11",
+      "path": "src/StagedTransformSteps11.lean",
+      "size_bytes": 53152,
+      "sha256": "5264e85b4aab952a146bd37964be58e03486a7214328c16f0d4ca4ea2bba1110"
+    },
+    {
+      "module": "StagedTransformSteps12",
+      "path": "src/StagedTransformSteps12.lean",
+      "size_bytes": 53149,
+      "sha256": "040208b8913bd89f53a3216361736b3941ccc8d4ebd76683feec7a7ba21cc719"
+    },
+    {
+      "module": "StagedTransformSteps13",
+      "path": "src/StagedTransformSteps13.lean",
+      "size_bytes": 53155,
+      "sha256": "f086e06a9942318ef4fffc9364331e402b3e798c1d985eeccfbdb6814064a4bf"
+    },
+    {
+      "module": "StagedTransformSteps14",
+      "path": "src/StagedTransformSteps14.lean",
+      "size_bytes": 53147,
+      "sha256": "7e7ff19eb90426f48242f23dcd2b10138ebc36a76ea18e0a2ace948640e7d973"
+    },
+    {
+      "module": "StagedTransformSteps15",
+      "path": "src/StagedTransformSteps15.lean",
+      "size_bytes": 53148,
+      "sha256": "0df662566456b49915e802fb0621d1458f42bbbd01b3c1188cd775d5ddeeb97a"
+    },
+    {
+      "module": "StagedTransformSteps16",
+      "path": "src/StagedTransformSteps16.lean",
+      "size_bytes": 53210,
+      "sha256": "b2950a16406d4c09f97f65a4ed0c9612c108f321fcb53f8d0164e7ff4792a334"
+    },
+    {
+      "module": "StagedTransformSteps17",
+      "path": "src/StagedTransformSteps17.lean",
+      "size_bytes": 53259,
+      "sha256": "d935feff2ab6808caf8cd4621df026bc38cca1150d6570a22765aa5d4b6f5d76"
+    },
+    {
+      "module": "StagedTransformSteps18",
+      "path": "src/StagedTransformSteps18.lean",
+      "size_bytes": 53259,
+      "sha256": "d65736c5d59011ca30604404d710aef0d9412a49a4aedb19a25d5c9765906465"
+    },
+    {
+      "module": "StagedTransformSteps19",
+      "path": "src/StagedTransformSteps19.lean",
+      "size_bytes": 53259,
+      "sha256": "11b3e3b3a3ddb440a84a06dd2948867a74bc06cd6fcfe52b1821b4ee41e02440"
+    },
+    {
+      "module": "StagedTransformSteps20",
+      "path": "src/StagedTransformSteps20.lean",
+      "size_bytes": 53259,
+      "sha256": "06fc5346dbcf7550a3d07e5e757984615a982b63e923530331f65e6799ad85c5"
+    },
+    {
+      "module": "StagedTransformSteps21",
+      "path": "src/StagedTransformSteps21.lean",
+      "size_bytes": 53259,
+      "sha256": "9e7bb3078fab22d9814badc713867e6081419fc1af6b96de78433dacd2e56113"
+    },
+    {
+      "module": "StagedTransformSteps22",
+      "path": "src/StagedTransformSteps22.lean",
+      "size_bytes": 42959,
+      "sha256": "6db1cc6cfb0207adcef7de06f46e4ec45e88e76d9e79a78dbb2d76c592a1d9d7"
+    },
+    {
+      "module": "StagedHTRow00",
+      "path": "src/StagedHTRow00.lean",
+      "size_bytes": 16711,
+      "sha256": "9e473baa500e76bf6d3a13177e8c29d2a8550ee1f73ebdbcb5f8a28e31e3b063"
+    },
+    {
+      "module": "StagedKRow00",
+      "path": "src/StagedKRow00.lean",
+      "size_bytes": 9452,
+      "sha256": "d5a14ea2724fcf8bb502d8002204b0adf248076fd7505ffabeeedb9761a11016"
+    },
+    {
+      "module": "StagedHTRow01",
+      "path": "src/StagedHTRow01.lean",
+      "size_bytes": 15827,
+      "sha256": "1db4386a34ff85f6a4075b8e99a5391a72b2339f81f261a9030aceafdc1c6ff0"
+    },
+    {
+      "module": "StagedKRow01",
+      "path": "src/StagedKRow01.lean",
+      "size_bytes": 8998,
+      "sha256": "0f12137c3145d59009fc31b5b898b5da04efba918091dd72200fc565b38b2abd"
+    },
+    {
+      "module": "StagedHTRow02",
+      "path": "src/StagedHTRow02.lean",
+      "size_bytes": 17387,
+      "sha256": "6f1b135d8b532f3cbf9a9dfd287951f370faf29ab83e197b756bf1a7aa91ffc3"
+    },
+    {
+      "module": "StagedKRow02",
+      "path": "src/StagedKRow02.lean",
+      "size_bytes": 9636,
+      "sha256": "acc6e48387bda9745d644d9a0b38752206e1d2b5dae2a568700966eb8a04977a"
+    },
+    {
+      "module": "StagedHTRow03",
+      "path": "src/StagedHTRow03.lean",
+      "size_bytes": 18375,
+      "sha256": "4c160ef8366e6f788dcde3e64fc481a31888446913c06197f1870488b0ff4dc3"
+    },
+    {
+      "module": "StagedKRow03",
+      "path": "src/StagedKRow03.lean",
+      "size_bytes": 10196,
+      "sha256": "886d440085b85b90fb7f0d2f8477bd7f7b5d7942ed836dc57b037f922869c204"
+    },
+    {
+      "module": "StagedHTRow04",
+      "path": "src/StagedHTRow04.lean",
+      "size_bytes": 17361,
+      "sha256": "59901f3ad0abe99c562a11d9c9045fc6e7ad484ad97aa1c82220a4d34decb8cc"
+    },
+    {
+      "module": "StagedKRow04",
+      "path": "src/StagedKRow04.lean",
+      "size_bytes": 8650,
+      "sha256": "e8b699d744db239fd29b9c74b04a4776297942b80b446c314786ef4e967435c9"
+    },
+    {
+      "module": "StagedHTRow05",
+      "path": "src/StagedHTRow05.lean",
+      "size_bytes": 17673,
+      "sha256": "e02e5732670fafb9c36816dff419d99785258e2e75207e92e1026c247cb62542"
+    },
+    {
+      "module": "StagedKRow05",
+      "path": "src/StagedKRow05.lean",
+      "size_bytes": 10614,
+      "sha256": "34cc74db9066038248d8bdce81106c8f702700f31c983a08971734c29539d7b4"
+    },
+    {
+      "module": "StagedHTRow06",
+      "path": "src/StagedHTRow06.lean",
+      "size_bytes": 17595,
+      "sha256": "e515dcf073d5f95ca4eafd38562f7bd23c82ce0df05f3a68d001c1abf581c100"
+    },
+    {
+      "module": "StagedKRow06",
+      "path": "src/StagedKRow06.lean",
+      "size_bytes": 11876,
+      "sha256": "1cfd17570ee257ce3e6c2b3fdefa8aa0ea2159bb641adf5ec90901064b78e83f"
+    },
+    {
+      "module": "StagedHTRow07",
+      "path": "src/StagedHTRow07.lean",
+      "size_bytes": 17517,
+      "sha256": "00ff22529a5260ea09f878b88a927cb8f07751fe32c0284c19f26823171ab746"
+    },
+    {
+      "module": "StagedKRow07",
+      "path": "src/StagedKRow07.lean",
+      "size_bytes": 11474,
+      "sha256": "a42fbce38c60f6a3a632ab2055b4c3ae5d443b1b389cb1c751e996371210fc83"
+    },
+    {
+      "module": "StagedHTRow08",
+      "path": "src/StagedHTRow08.lean",
+      "size_bytes": 17439,
+      "sha256": "e95c669136d16b1c7dcb057989fe9954916da47ee54d764a87c63040e12ff92f"
+    },
+    {
+      "module": "StagedKRow08",
+      "path": "src/StagedKRow08.lean",
+      "size_bytes": 11436,
+      "sha256": "b6423b93efc3513ac68b4ff7dd4ba123967342d486abcd795355110dd47e80fb"
+    },
+    {
+      "module": "StagedHTRow09",
+      "path": "src/StagedHTRow09.lean",
+      "size_bytes": 19441,
+      "sha256": "b29ac315a0ec2424ef52e59d905cfc030dadfeb0ede05b0bd9ad9f7e8b6aba41"
+    },
+    {
+      "module": "StagedKRow09",
+      "path": "src/StagedKRow09.lean",
+      "size_bytes": 10982,
+      "sha256": "aa3ae4ae997bce1c79701b4995237c4c4f331dcfc70178de2b907372edd41e53"
+    },
+    {
+      "module": "StagedHTRow10",
+      "path": "src/StagedHTRow10.lean",
+      "size_bytes": 19477,
+      "sha256": "8c44aeb09de65c8507b22c2e10c30457355a493e74a1fe6b5987ed1a4db6d9c7"
+    },
+    {
+      "module": "StagedKRow10",
+      "path": "src/StagedKRow10.lean",
+      "size_bytes": 10389,
+      "sha256": "76a7d410c33045aa7eb72d6180483111edb84c457d656a59a75d5ed06c9f25d3"
+    },
+    {
+      "module": "StagedHTRow11",
+      "path": "src/StagedHTRow11.lean",
+      "size_bytes": 19477,
+      "sha256": "1c2aba7a11bda41f621c6c84416487087f34ca582935cd42026b5154e7433b2c"
+    },
+    {
+      "module": "StagedKRow11",
+      "path": "src/StagedKRow11.lean",
+      "size_bytes": 9619,
+      "sha256": "c4caa90b9a1b534e288a71bac029a0c89bc8afbad9c3bbf3a893c238c188bbd0"
+    },
+    {
+      "module": "StagedHTRow12",
+      "path": "src/StagedHTRow12.lean",
+      "size_bytes": 19477,
+      "sha256": "f48d14e1590abc53bb324ef5fa53af27ecf8f39e61ba8ebe16f5775d351ceaa7"
+    },
+    {
+      "module": "StagedKRow12",
+      "path": "src/StagedKRow12.lean",
+      "size_bytes": 8693,
+      "sha256": "2b95163e560124e9d1323362e884beeb15bc50232c09d700b005669020d5678c"
+    },
+    {
+      "module": "StagedHTRow13",
+      "path": "src/StagedHTRow13.lean",
+      "size_bytes": 19477,
+      "sha256": "0c03c4cb17cd1589979ddaf3c65f9f556847d085f0754ac3c5c3a4a56a8cf3e7"
+    },
+    {
+      "module": "StagedKRow13",
+      "path": "src/StagedKRow13.lean",
+      "size_bytes": 7611,
+      "sha256": "9d66a351678ff5ad6e305493ad78497f7d433961d94f16d4b9749f39b76491cd"
+    },
+    {
+      "module": "StagedHTRow14",
+      "path": "src/StagedHTRow14.lean",
+      "size_bytes": 19477,
+      "sha256": "e8364da488cc5f905811192b6df4794a660df7f798313c7040615d53c2f15449"
+    },
+    {
+      "module": "StagedKRow14",
+      "path": "src/StagedKRow14.lean",
+      "size_bytes": 6373,
+      "sha256": "eb602fd02c04975f0464e2afa47c1e695acc47f2aa753d74d67fdf9b9bb5ce1c"
+    },
+    {
+      "module": "StagedHTRow15",
+      "path": "src/StagedHTRow15.lean",
+      "size_bytes": 19477,
+      "sha256": "e7fc429c81c021bda728b1f56ca4a8a2dc10149819de91a6e8be54e6f1a66b71"
+    },
+    {
+      "module": "StagedKRow15",
+      "path": "src/StagedKRow15.lean",
+      "size_bytes": 4979,
+      "sha256": "9883c5be8e7cc2e5c23cfc92f25f85807c95dc5531205265eead55c2a89bd453"
+    },
+    {
+      "module": "StagedHTRow16",
+      "path": "src/StagedHTRow16.lean",
+      "size_bytes": 19477,
+      "sha256": "f186abea389d306e78e1c59edde2add375eed9110acb3f9bc6c2fb1df45eec06"
+    },
+    {
+      "module": "StagedKRow16",
+      "path": "src/StagedKRow16.lean",
+      "size_bytes": 3429,
+      "sha256": "fee580a76eb5af71a95197bbe6d5b515d2c78cc34e936bca98f71f81c83f45b1"
+    },
+    {
+      "module": "StagedTransformCertificate",
+      "path": "src/StagedTransformCertificate.lean",
+      "size_bytes": 3728,
+      "sha256": "f1c949b8210d52fdb31f525d539fc99a523da598abec86d9515869ad70bb9cfb"
+    },
+    {
+      "module": "CoordinateQuadraticTransfer",
+      "path": "src/CoordinateQuadraticTransfer.lean",
+      "size_bytes": 3338,
+      "sha256": "79964d0bd72ec340d6934135f1b53407d521b830d1b78b7317252a8401a058d5"
+    },
+    {
+      "module": "IndexedMatrixWeights",
+      "path": "src/IndexedMatrixWeights.lean",
+      "size_bytes": 16221,
+      "sha256": "0c00cf6dfd4883a76c811fddd4415e5a7a35b20bebf2628a853e682c085f5406"
+    },
+    {
+      "module": "SparseSliceFormula",
+      "path": "src/SparseSliceFormula.lean",
+      "size_bytes": 2039,
+      "sha256": "aa046f3445508b2e2800e45a18516c9424cccf633b8aab0da2913b0d309dd0fa"
+    },
+    {
+      "module": "PhysicalMatrixReplayBase",
+      "path": "src/PhysicalMatrixReplayBase.lean",
+      "size_bytes": 9721,
+      "sha256": "12b27f67283e94c81631048b7a4526cf1f6ce8648097e3d9593aec51bd5f6f5c"
+    },
+    {
+      "module": "PhysicalMatrixReplaySteps00",
+      "path": "src/PhysicalMatrixReplaySteps00.lean",
+      "size_bytes": 51496,
+      "sha256": "a915fe1183c6b140f7c05a00f28185f0100ae73a4128ce72053a65e16003292d"
+    },
+    {
+      "module": "PhysicalMatrixReplaySteps01",
+      "path": "src/PhysicalMatrixReplaySteps01.lean",
+      "size_bytes": 51585,
+      "sha256": "7277066b834db660d690980bd961789aeaba2b97e02dced8a482fe90ce727f18"
+    },
+    {
+      "module": "PhysicalMatrixReplaySteps02",
+      "path": "src/PhysicalMatrixReplaySteps02.lean",
+      "size_bytes": 51619,
+      "sha256": "30f114213151ea629adff493e360aa74ac3ebdda3092422a27c6ea6c7734465c"
+    },
+    {
+      "module": "PhysicalMatrixReplaySteps03",
+      "path": "src/PhysicalMatrixReplaySteps03.lean",
+      "size_bytes": 52067,
+      "sha256": "ffae4ac685f6405744c868c4fd032f316366c36d5b2bacaaddd77a701269c749"
+    },
+    {
+      "module": "PhysicalMatrixReplaySteps04",
+      "path": "src/PhysicalMatrixReplaySteps04.lean",
+      "size_bytes": 52755,
+      "sha256": "596901e4b0e041568bea579aea172526c63ae88688a318fa4735f2af6d5db283"
+    },
+    {
+      "module": "PhysicalMatrixReplaySteps05",
+      "path": "src/PhysicalMatrixReplaySteps05.lean",
+      "size_bytes": 48480,
+      "sha256": "4023bc50381b9ea249a2c138cfec6ec91ebcd802b54ccd47ccf18b353ef675e3"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow00",
+      "path": "src/PhysicalMatrixReplayRow00.lean",
+      "size_bytes": 19948,
+      "sha256": "38582f7ff8f546c015dffc86423a84a63a1d773d7ce623e5bd489bbc69596600"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow01",
+      "path": "src/PhysicalMatrixReplayRow01.lean",
+      "size_bytes": 18544,
+      "sha256": "906e94250949a1a5a2dc4c1c68b8d99a4bcb3563a535653d857c07e656960da2"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow02",
+      "path": "src/PhysicalMatrixReplayRow02.lean",
+      "size_bytes": 21840,
+      "sha256": "0447d9dc3ca7ef5818635c9fae5328b69feddbe5d70081c3d0aaa23533166f59"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow03",
+      "path": "src/PhysicalMatrixReplayRow03.lean",
+      "size_bytes": 21671,
+      "sha256": "2ddfbb1200fc15a3015d171336aca653a268fb1ab24609042399389985e4a829"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow04",
+      "path": "src/PhysicalMatrixReplayRow04.lean",
+      "size_bytes": 18253,
+      "sha256": "ababe9f117d297e3b4b95bcc62a5e540a125aa31260f03204ca270d03efef6fa"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow05",
+      "path": "src/PhysicalMatrixReplayRow05.lean",
+      "size_bytes": 19070,
+      "sha256": "241620209ea41eba72bee9fec71e6c273b215e1668be27e71204fbd677fd1ec1"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow06",
+      "path": "src/PhysicalMatrixReplayRow06.lean",
+      "size_bytes": 15607,
+      "sha256": "207fd7f70b7a402a6887f45fdaaba8a0b2524d5d97993a74a7e66269b845225b"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow07",
+      "path": "src/PhysicalMatrixReplayRow07.lean",
+      "size_bytes": 16687,
+      "sha256": "4f717a50eb41ad1bede78c69d3b8492cf98ac5cdbf6a513052879da8599a0cb5"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow08",
+      "path": "src/PhysicalMatrixReplayRow08.lean",
+      "size_bytes": 13056,
+      "sha256": "fe528ed0557f32cd87ea1643e0ee48a3a3a3897f2ad11ff9c8827c2e082c6bdd"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow09",
+      "path": "src/PhysicalMatrixReplayRow09.lean",
+      "size_bytes": 16536,
+      "sha256": "9de082489bfae047159c0da206449dfc1b70fb2df2b50c594e1fa6bebf69babd"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow10",
+      "path": "src/PhysicalMatrixReplayRow10.lean",
+      "size_bytes": 12463,
+      "sha256": "3d5f5e399d68419b8ea4b67a89b55374b6cf68931ee596c94f59c0093b0ed350"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow11",
+      "path": "src/PhysicalMatrixReplayRow11.lean",
+      "size_bytes": 15346,
+      "sha256": "99306589aca69eebd72f4df887cc4d271bdcd62adb7e54f2235235ffaccefb93"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow12",
+      "path": "src/PhysicalMatrixReplayRow12.lean",
+      "size_bytes": 10019,
+      "sha256": "4ad7b89623db367af05d7291c2cbfbf7ff639265ebad609bfb436faedb410bf2"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow13",
+      "path": "src/PhysicalMatrixReplayRow13.lean",
+      "size_bytes": 12494,
+      "sha256": "2e4dc2f9fc7e195567dc552cd12fa870a451e349ed97255a080539b42d3a58be"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow14",
+      "path": "src/PhysicalMatrixReplayRow14.lean",
+      "size_bytes": 7309,
+      "sha256": "360964db03ecf7719e662872a6db39da48dc955e4b640fbd72b50db0350cd9c4"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow15",
+      "path": "src/PhysicalMatrixReplayRow15.lean",
+      "size_bytes": 8324,
+      "sha256": "07860be5dca0832abd475f67f84e6278c3c5e34db3f6d687f3c54aaf7d332635"
+    },
+    {
+      "module": "PhysicalMatrixReplayRow16",
+      "path": "src/PhysicalMatrixReplayRow16.lean",
+      "size_bytes": 4471,
+      "sha256": "7d1e6c82b414605753454f4b4306250d08295ef1db4b2aa61cdc79feb721341a"
+    },
+    {
+      "module": "PhysicalMatrixReplayCertificate",
+      "path": "src/PhysicalMatrixReplayCertificate.lean",
+      "size_bytes": 3182,
+      "sha256": "ee76ab43f5e65ca51d230e2c354a637e7a7cf37012baf2c54a707f54b2a7b63f"
+    },
+    {
+      "module": "PhysicalSlicePositivityCertificate",
+      "path": "src/PhysicalSlicePositivityCertificate.lean",
+      "size_bytes": 2359,
+      "sha256": "ef4bd286078c079278b2732b3ea3f9d27aa1b3bdb0c793868e37f504da5f71e2"
+    },
+    {
+      "module": "UniformRayMinimum",
+      "path": "src/UniformRayMinimum.lean",
+      "size_bytes": 3114,
+      "sha256": "c7f8126e4bb11ad3d6bd8068f3a243188e99860088a012c8d52a8e8265e0115d"
+    },
+    {
+      "module": "PhysicalUniformRayMinimum",
+      "path": "src/PhysicalUniformRayMinimum.lean",
+      "size_bytes": 3704,
+      "sha256": "03f58c8a5676f55fc94590eb6e8f7ca053cadd4b5726ec0834f3d1db6e9cb959"
+    },
+    {
+      "module": "SliceLocalMinimum",
+      "path": "src/SliceLocalMinimum.lean",
+      "size_bytes": 4989,
+      "sha256": "4025b312ae67955e33afe6801b0c8163382762f5331a50ceb3cdd32232d0962b"
+    },
+    {
+      "module": "RotationGaugeGeometry",
+      "path": "src/RotationGaugeGeometry.lean",
+      "size_bytes": 3937,
+      "sha256": "d54d06dac4df6fa12b813478274589e095ca427bd1e3ee3cd0642110f1509a19"
+    },
+    {
+      "module": "RotationGaugeContinuity",
+      "path": "src/RotationGaugeContinuity.lean",
+      "size_bytes": 4843,
+      "sha256": "c54d5a3bb0ae670292bda9baed802ea3c06a6e7404c7242e631b350548273c44"
+    },
+    {
+      "module": "FullLocalMinimum",
+      "path": "src/FullLocalMinimum.lean",
+      "size_bytes": 5864,
+      "sha256": "3c4c97c871ed9541fc670be26ba7b4f070fbc909e074de7f672731685c26b7d8"
+    }
+  ],
+  "total_source_bytes": 3907182,
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_imports": [
+    "Mathlib.Analysis.Calculus.ContDiff.Comp",
+    "Mathlib.Analysis.Calculus.ContDiff.Operations",
+    "Mathlib.Analysis.Calculus.Deriv.Inv",
+    "Mathlib.Analysis.Calculus.Deriv.MeanValue",
+    "Mathlib.Analysis.Calculus.Deriv.Pow",
+    "Mathlib.Analysis.Convex.Deriv",
+    "Mathlib.Analysis.SpecialFunctions.Sqrt",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FinCases",
+    "Mathlib.Tactic.FunProp",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Topology.Compactness.Compact",
+    "Mathlib.Topology.MetricSpace.ProperSpace",
+    "Mathlib.Topology.Order.IntermediateValue",
+    "Mathlib.Topology.Order.LocalExtr"
+  ],
+  "other_external_imports": [
+  ],
+  "standard_imports": [
+    "Std"
+  ],
+  "lake_manifest": "lake-manifest.json",
+  "extra_files": [
+    {
+      "path": "src/Audit.lean",
+      "size_bytes": 290,
+      "sha256": "c2368f4f1a9da2eeac4ba97c70ffa8cfbe33b087310126ff4722f9f8e90c4bd8"
+    },
+    {
+      "path": "src/WitnessControls.lean",
+      "size_bytes": 688,
+      "sha256": "b4847c7918d02c2d412df955dce62506876c535d604a21d4c8ad8b0079041d4a"
+    },
+    {
+      "path": "negative-controls/False.lean",
+      "size_bytes": 62,
+      "sha256": "3582952399adaebb635a5d3f2743a4bee88d1150d2c1620351c4707dd1aeac3c"
+    },
+    {
+      "path": "negative-controls/DamagedMatrixWitness.lean",
+      "size_bytes": 261,
+      "sha256": "d1ef5e719da958c541a4fc5921adb53935091c6fcc259b8866bae16ab4690aec"
+    }
+  ]
+}

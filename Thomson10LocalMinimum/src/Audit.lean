@@ -1,0 +1,7 @@
+import FullLocalMinimum
+
+#check Thomson10Stability.certified_full_sphere_local_minimum
+#check Thomson10Stability.certified_gauged_slice_local_minimum
+
+#print axioms Thomson10Stability.certified_full_sphere_local_minimum
+#print axioms Thomson10Stability.certified_gauged_slice_local_minimum

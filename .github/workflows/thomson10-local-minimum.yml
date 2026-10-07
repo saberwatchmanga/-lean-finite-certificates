@@ -1,0 +1,39 @@
+name: Thomson10 local-minimum proof
+
+on:
+  push:
+    paths:
+      - 'Thomson10LocalMinimum/**'
+      - '.github/workflows/thomson10-local-minimum.yml'
+  pull_request:
+    paths:
+      - 'Thomson10LocalMinimum/**'
+      - '.github/workflows/thomson10-local-minimum.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    env:
+      LEAN_NUM_THREADS: '1'
+      RAYON_NUM_THREADS: '1'
+      PYTHONIOENCODING: utf-8
+      THOMSON_VERIFY_TOTAL_SECONDS: '7200'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: leanprover/lean-action@f061402b660e0c34644504b324e830f2991d4865
+        with:
+          lake-package-directory: Thomson10LocalMinimum
+          auto-config: 'false'
+          build: 'false'
+          test: 'false'
+          lint: 'false'
+          use-mathlib-cache: 'true'
+          use-github-cache: 'false'
+      - name: Rebuild project sources and audit proofs sequentially
+        working-directory: Thomson10LocalMinimum
+        run: python3 verify.py
