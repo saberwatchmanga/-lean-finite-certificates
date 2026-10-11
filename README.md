@@ -48,3 +48,14 @@ This subproject uses fixed Lean and Mathlib versions and its own [fresh-build ve
 
 十电荷成果证明：存在一个经过精确认证的构型，附近任意足够小的球面移动都不能降低能量。它没有证明整个球面上不存在能量更低的其他构型。详细范围和复现方法见[十电荷项目说明](Thomson10LocalMinimum/README.md)。
 
+
+
+## Thomson N=10: a distance restriction for low-energy configurations
+
+[Thomson10Chord1935](Thomson10Chord1935/) supplies a separate Lean-checked theorem for ten pairwise distinct points on a unit sphere: if their normalized Coulomb energy is at most 32.717, at least one pair has distance greater than 1.935. Equivalently, restricting all 45 pair distances to at most 1.935 forces energy above 32.717.
+
+The released 237-module source closure was completely rebuilt from source, with final axiom audits and two damaged-statement rejection checks. See the [English README](Thomson10Chord1935/README.md), [中文说明](Thomson10Chord1935/README_ZH.md), [reproduction record](Thomson10Chord1935/verification/fresh-source-check.json), and the separate GitHub Actions workflow. The subproject has its own fixed dependencies and MIT license.
+
+This strengthens the previous necessary distance threshold of 1.90 for configurations with energy at most 32.717. It does not establish global minimality or claim first formalization. Unfinished global-search notes remain outside the release.
+
+十电荷的新增阶段成果：只要总能量不超过32.717，就一定有一对电荷相距超过1.935。它排除了一类低能量排列，尚未确定全局最低能量；源码重建、公理审计和故意改错测试已完成。

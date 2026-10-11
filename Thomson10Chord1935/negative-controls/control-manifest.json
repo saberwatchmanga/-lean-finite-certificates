@@ -1,0 +1,14 @@
+{
+  "controls": [
+    {
+      "name": "DamagedCoefficient",
+      "source": "negative-controls/DamagedCoefficient.lean",
+      "expected_error_regex": "decide[\\s\\S]*false|unsolved goals"
+    },
+    {
+      "name": "BadBudget",
+      "source": "negative-controls/BadBudget.lean",
+      "expected_error_regex": "unsolved goals"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "local_root_and_complete_fresh_source_rebuild_checked",
+  "checked_utc": "2026-10-11T06:53:03.916706+00:00",
+  "root_source_sha256": "b961142cdcdb2a674d50c46b840c33123e216d7979b07aa29dd0ace60b3fd62f",
+  "root_artifact_sha256": "560d3e00c0b2b7c80f13ddfc264b2c8bc78862984d60ee5beb962af0514efbe9",
+  "root_targets": [
+    "M36Chord1935Exclusion.actual_summed_certificate_for_physical_energy",
+    "M36Chord1935Exclusion.actual_energy_exceeds_32717_when_all_chords_le_1935",
+    "M36Chord1935Exclusion.energy_le_32717_forces_a_chord_gt_1935"
+  ],
+  "observed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "certificate_sha256": "4edbae0176d0d7e1c5287029faaa2dcc76103138b77466f82a153d77baddfd25",
+  "global_optimality_proved": false,
+  "negative_controls_pending": false,
+  "negative_controls": [
+    {
+      "name": "M39DamagedCoefficient",
+      "intended_rejection": true,
+      "positive_context_report": "M36CertificatePolynomials.lhs_degree_bound",
+      "source_sha256": "6081be9ecc696996ef7cf2c89f35843d1f3409afb12fc04235d4cb9eb06375ac",
+      "log_sha256": "6cec0b4b71fedc0fbe06778f0cc724aedc6a53c2e389ca32a9d2816fe63911fc",
+      "elapsed_seconds": 51.64100000000144
+    },
+    {
+      "name": "M39BadBudget",
+      "intended_rejection": true,
+      "positive_context_report": "Thomson10Cutoff1935BudgetRound36.exact_budget_exceeds_reference",
+      "source_sha256": "ec51439c616fc3e08d4d0edf150a7283024d57607481029b0d3a627a8074f3f1",
+      "log_sha256": "387fcd3907bc4ffa8d61d89e295cd38303a6b65219c1d44ad17f96c704ed5e48",
+      "elapsed_seconds": 45.84400000000096
+    }
+  ],
+  "fresh_source_rebuild": "fresh-source-check.json"
+}

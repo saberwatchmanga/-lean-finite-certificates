@@ -1,0 +1,1235 @@
+{
+  "status": "source_build_and_audits_passed",
+  "completed_utc": "2026-10-11T11:31:44.119580+00:00",
+  "source_modules_compiled": 237,
+  "build_method": "Empty project build directory initially; dependency-first sequential source rebuild in two hash-checked resumed invocations. Pinned upstream library artifacts reused.",
+  "source_manifest_sha256": "0a0136f58cd8f8f15bde6ba5759c8b363547bb0cf56cd9bfb47f1fac50447cf7",
+  "certificate_sha256": "4edbae0176d0d7e1c5287029faaa2dcc76103138b77466f82a153d77baddfd25",
+  "verifier_sha256": "419f454de0deb4c6e2f45febd30384b65d80924b886bd125564b336c429df05d",
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "actual_dependency_revisions_checked": true,
+  "root_targets": [
+    "M36Chord1935Exclusion.actual_summed_certificate_for_physical_energy",
+    "M36Chord1935Exclusion.actual_energy_exceeds_32717_when_all_chords_le_1935",
+    "M36Chord1935Exclusion.energy_le_32717_forces_a_chord_gt_1935"
+  ],
+  "root_axioms": {
+    "M36Chord1935Exclusion.actual_summed_certificate_for_physical_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "M36Chord1935Exclusion.actual_energy_exceeds_32717_when_all_chords_le_1935": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "M36Chord1935Exclusion.energy_le_32717_forces_a_chord_gt_1935": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "negative_controls": [
+    {
+      "name": "DamagedCoefficient",
+      "intended_failure": true
+    },
+    {
+      "name": "BadBudget",
+      "intended_failure": true
+    }
+  ],
+  "source_compile_seconds": 14867.205,
+  "host_platform": "Windows x86_64",
+  "global_optimality_proved": false,
+  "cloud_ci_result": "Reported separately by GitHub Actions; local success is not a cloud result",
+  "modules": [
+    {
+      "module": "ContinuousCore",
+      "source_sha256": "85cc84aa01837becf4126acae46cbdef9e3ac1b3c3f12deb3ef6f700f7d9f5af",
+      "elapsed_seconds": 67.125
+    },
+    {
+      "module": "GeometryCore",
+      "source_sha256": "844f25fe43dfa9faf508851dcc11c22bd7c100599c220887f3fa0266fa9c88a8",
+      "elapsed_seconds": 30.859
+    },
+    {
+      "module": "CoulombDerivatives",
+      "source_sha256": "35f204d3cf7596c52da9a1685684634371e1955d03a0dae9e615b813a0aa1b5a",
+      "elapsed_seconds": 47.61
+    },
+    {
+      "module": "SpherePaths",
+      "source_sha256": "bdd1db0b0f686751d770eb22775dbfaea0c8acc9ee84753a11da7ac2e449e89b",
+      "elapsed_seconds": 19.438
+    },
+    {
+      "module": "PhysicalPair",
+      "source_sha256": "3f151bdee4c68d1d6b4779c249ab7002ae8e6efb22e0bcfcdd214d62f3b3fe5d",
+      "elapsed_seconds": 17.609
+    },
+    {
+      "module": "RadicalIdentities",
+      "source_sha256": "8dbc05334ada2a41fc4a3efcb02bf01ac282843618b43214a97c507b90a3cac6",
+      "elapsed_seconds": 65.687
+    },
+    {
+      "module": "EnergyBridge",
+      "source_sha256": "1b2cf8c87602ffb4af06fd33e696b79aab4be7a4f99d364a196abeb4b03b0f1f",
+      "elapsed_seconds": 56.937
+    },
+    {
+      "module": "SphericalEnergy",
+      "source_sha256": "e7545d3f91d9081bc54a66de239a4d1b6d5200c5f8d48e797b7935aef386ab63",
+      "elapsed_seconds": 79.844
+    },
+    {
+      "module": "PointVariation",
+      "source_sha256": "7839be93500309742fcc0d76070149cc8d03c7e1a8f40811b8f1026f430dd6e6",
+      "elapsed_seconds": 66.032
+    },
+    {
+      "module": "ThreePointCounting",
+      "source_sha256": "afa6e4787bdce50a2179cc2e3cf874d867f30d24b98975b3bf89c9f2054d7e50",
+      "elapsed_seconds": 53.594
+    },
+    {
+      "module": "BVCountingBridge",
+      "source_sha256": "1d6cdcbc1c9fe8f622e1335b685192c33eb5661712e1736304544cc410aa7aad",
+      "elapsed_seconds": 65.687
+    },
+    {
+      "module": "PairMixedCore",
+      "source_sha256": "dac1714cb8d130a05ea691a5efb74a786435ff5cc025f36f909e07a0a5461bbb",
+      "elapsed_seconds": 42.734
+    },
+    {
+      "module": "MixedEnergy",
+      "source_sha256": "9a5a493ed9dddffaab3bf3a85ceed1d2a404d0426e39047b76c03ff81edbfdad",
+      "elapsed_seconds": 29.672
+    },
+    {
+      "module": "BilinearEnergy",
+      "source_sha256": "d58b204acbdc3124cc15f3b73f3742cf54a576ac43cfdff9e90516b34a0a0c93",
+      "elapsed_seconds": 20.047
+    },
+    {
+      "module": "EnergyMatrix",
+      "source_sha256": "aa4f449c7472abde746d3f41aa1d17953a350ffe9fa61fc4b10eba52b40534d3",
+      "elapsed_seconds": 17.641
+    },
+    {
+      "module": "TwistAnalysis",
+      "source_sha256": "2d396a9b1a5bccb8731dd7753d5482b5dee00f42c827fa291eb11d69d391324b",
+      "elapsed_seconds": 22.266
+    },
+    {
+      "module": "StationarityCore",
+      "source_sha256": "efa38fa6412c303445664bc3ade0f2679da6444e29393a5b605eee86d6e57cbf",
+      "elapsed_seconds": 19.172
+    },
+    {
+      "module": "StationarityGeometryCore",
+      "source_sha256": "3de6065694ad68d44ef5651a4319b6eaa5c129cc7ab8b12442ff6a65a41c27ea",
+      "elapsed_seconds": 37.781
+    },
+    {
+      "module": "TangentFrameCore",
+      "source_sha256": "3730a44ce008af4f741f6e617b449a1f3ccd5998dceac27d8c29dba8be3ac023",
+      "elapsed_seconds": 18.625
+    },
+    {
+      "module": "TangentFrames",
+      "source_sha256": "d8e10b9cc9c63374dc18f76db134255bd673352d2fb9e8317ba085e67be9bbd0",
+      "elapsed_seconds": 17.547
+    },
+    {
+      "module": "MeridianTable",
+      "source_sha256": "bed7b646de561342430593e6e4cdd889c3efbb0ae703fdb42675503d06ebd3c3",
+      "elapsed_seconds": 34.5
+    },
+    {
+      "module": "MeridianWeights",
+      "source_sha256": "0ec830d2d2c9882ce898092215867215bc578c9ff39891517632cc6df056b89d",
+      "elapsed_seconds": 46.047
+    },
+    {
+      "module": "StationarityGeometry",
+      "source_sha256": "503c9e6f1a327e5e9c1aa0b13697c541b40ec76f799aa2540279ff5a8abae442",
+      "elapsed_seconds": 17.531
+    },
+    {
+      "module": "ArithmeticEnclosures",
+      "source_sha256": "d90ac6c3486e43c349470b6abf1858b3e10bb9bd385d2c23b0e8e353aff2279b",
+      "elapsed_seconds": 4.531
+    },
+    {
+      "module": "IntervalSoundness",
+      "source_sha256": "e40c57f11b2290bd90eb9fa478dabff2d0bda2d55bef1c52e85d8dd68135b7db",
+      "elapsed_seconds": 22.0
+    },
+    {
+      "module": "EndpointBounds",
+      "source_sha256": "85d0d0185ad6ca1c1fcd909e6807c3358c222a7ef6ea8b986e1d83a09535613c",
+      "elapsed_seconds": 23.016
+    },
+    {
+      "module": "MinimizerIntervalCore",
+      "source_sha256": "4f1b16d62769bc19273879d7b392d1e2d762a7a63f3dade1c9f40323412e5fe8",
+      "elapsed_seconds": 24.843
+    },
+    {
+      "module": "StationarityBridge",
+      "source_sha256": "699f3548b2097159ee197fe0f4b7eae08a6d13388376ceb128a01260794d4e22",
+      "elapsed_seconds": 22.891
+    },
+    {
+      "module": "RotationKernel",
+      "source_sha256": "89fd3b59dc664dcae1c2a21283015afaca370210fb5e1c5065a457192b93b73f",
+      "elapsed_seconds": 26.89
+    },
+    {
+      "module": "RotationGaugeAlgebra",
+      "source_sha256": "1a1b6a7de376172ee337a12723eee4d97c42d211d8423bf7a3c10a2fe86ef378",
+      "elapsed_seconds": 23.172
+    },
+    {
+      "module": "TangentPlaneCoordinates",
+      "source_sha256": "dc66a1fcf3d1f4294ff4f38c9e0201937ddbb8323f65c48e4cc29be07dc62dbc",
+      "elapsed_seconds": 22.75
+    },
+    {
+      "module": "CircleKernelCore",
+      "source_sha256": "db32179491fbe7520776319a2e930417e9cdc3a2bb7c921b26e5ff1ee64950cb",
+      "elapsed_seconds": 18.016
+    },
+    {
+      "module": "SphereMomentKernel",
+      "source_sha256": "83ef1d936baa1a937e3d3f2151cf56de4638254d181a917d871ec3eff60ea7fb",
+      "elapsed_seconds": 18.125
+    },
+    {
+      "module": "SphereMomentBounds",
+      "source_sha256": "732e3102de23700f1c48475370c8d9ae94f4447a272c23f48fc44ce81bc67bab",
+      "elapsed_seconds": 29.875
+    },
+    {
+      "module": "CertificateMatrixBridge",
+      "source_sha256": "931a2589ed2d317fcd975f226cbeba583f721d89c34733ede5970aaa5fc74b93",
+      "elapsed_seconds": 56.735
+    },
+    {
+      "module": "SymmetricSphereKernel",
+      "source_sha256": "1836cd4bd2df05a9139c1048a44b88f3020576ed09a0fb54d8166a641cf614e6",
+      "elapsed_seconds": 58.938
+    },
+    {
+      "module": "RMatrixLossBridge",
+      "source_sha256": "1c5b99c0fbbdd5ceda77e87dbade01b3144ba8717c96d8dea95c13d85f5c0aef",
+      "elapsed_seconds": 47.078
+    },
+    {
+      "module": "RationalPairKernel",
+      "source_sha256": "b1ab032a306aa60e3358718130f12da10a60a9d3f9bdfc0f4bb82447f9703b93",
+      "elapsed_seconds": 98.391
+    },
+    {
+      "module": "RationalPairUnderbound",
+      "source_sha256": "3021c3ffcf27fe1a759a27d1a3198491271aa74f5fbe8158f88b31a3af27eba7",
+      "elapsed_seconds": 82.578
+    },
+    {
+      "module": "PairDistanceExclusion",
+      "source_sha256": "41978cba5668c466f619601bf158d5d1a2cc901dcd6acc8bb4f169d103cd5350",
+      "elapsed_seconds": 48.625
+    },
+    {
+      "module": "ActualRPolynomialSemantics",
+      "source_sha256": "ab1a36ec774399f055d85aa6416b624782d4615e3df300ec565114fb357806bf",
+      "elapsed_seconds": 46.86
+    },
+    {
+      "module": "CompactHomogeneousKernelsRound16",
+      "source_sha256": "d480f58cbea64f16913002ff40c14e8e593da02037bbd434001dd8b9bb13b21f",
+      "elapsed_seconds": 76.25
+    },
+    {
+      "module": "SparsePolynomialSemanticsRound16",
+      "source_sha256": "6a53c436a49b4407771fb60eee4616883a3169a4d6035e915d02f38993214b56",
+      "elapsed_seconds": 53.203
+    },
+    {
+      "module": "WeightedSOSBounds",
+      "source_sha256": "54d154740c36d741e6eda8f4d94fee899c3a60596d17b4ac612c391fc185ed0c",
+      "elapsed_seconds": 58.234
+    },
+    {
+      "module": "DiagonalDominance",
+      "source_sha256": "20da35cff68ecb734e8b6ecce139393498e13cdce79a49c5609d4f43d7accb5d",
+      "elapsed_seconds": 43.703
+    },
+    {
+      "module": "TriangularSurjectivity",
+      "source_sha256": "48c46cfedec0e6ec7e9953ba6c681cd1d0ad31fb3963d132691b0f96330cba15",
+      "elapsed_seconds": 43.937
+    },
+    {
+      "module": "MatrixCongruenceBridge",
+      "source_sha256": "76319667a2dace95a7e19d2c5ff4112864d5ab95546ea27b19ad5e9317f5eb2e",
+      "elapsed_seconds": 28.375
+    },
+    {
+      "module": "IntegerCongruenceTransfer",
+      "source_sha256": "1b7445c2e39bf373f417c61f21e2096ccf57bbaead71e1534f03220d8c2f2f4d",
+      "elapsed_seconds": 18.063
+    },
+    {
+      "module": "SharedUnweightedGapRowsRound15",
+      "source_sha256": "a4369631948e813cf88a091251d771a1906f26fb16ec4c64c2588398d2e60e4b",
+      "elapsed_seconds": 11.938
+    },
+    {
+      "module": "IntegerSequentialDot",
+      "source_sha256": "6ca5b5d3b0dea78389b7ba367d7fbbc97113eb443022c3da0a096c2789a779ad",
+      "elapsed_seconds": 12.766
+    },
+    {
+      "module": "SequentialUnweightedRightColumns",
+      "source_sha256": "59b1bf6b22f9eb4f2ce30891942279a4d793dbd99aeb85c4e39a2c96f7eeac5d",
+      "elapsed_seconds": 28.453
+    },
+    {
+      "module": "SequentialUnweightedLeftColumns",
+      "source_sha256": "6b3b5c5ebfd0f21fed9122faf27c46a960e32ecdab978662d8a8182afd04745a",
+      "elapsed_seconds": 23.547
+    },
+    {
+      "module": "SequentialUnweightedRightChunk00",
+      "source_sha256": "f4278a240ed1153463b1ea6a4604d784550df1f5589e04c9cfa2e80c0cdee74f",
+      "elapsed_seconds": 20.25
+    },
+    {
+      "module": "SequentialUnweightedRightChunk01",
+      "source_sha256": "9c4aec829e21442bbbf51ce748bcaff2adc9b0c4abbfc8a59f8c418cac986966",
+      "elapsed_seconds": 22.344
+    },
+    {
+      "module": "SequentialUnweightedRightChunk02",
+      "source_sha256": "009292f178edb78e522ca0c66f47c0655aec964cbc514101c5e02b8089bc035b",
+      "elapsed_seconds": 21.672
+    },
+    {
+      "module": "SequentialUnweightedRightChunk03",
+      "source_sha256": "a17b12447a7c994694b20d7b7ea03c90cfb5d99b51e04a17e09ecc01bffe0378",
+      "elapsed_seconds": 22.203
+    },
+    {
+      "module": "SequentialUnweightedRightChunk04",
+      "source_sha256": "27e8352b3eb9d0b35a83cf2307bbba039c16e29f121875aa4e988849ba6838ea",
+      "elapsed_seconds": 22.297
+    },
+    {
+      "module": "SequentialUnweightedRightChunk05",
+      "source_sha256": "88b77eda010338e31cf0726d710e0a9446a52d5f44911c62707a63b4eea2d084",
+      "elapsed_seconds": 21.86
+    },
+    {
+      "module": "SequentialUnweightedRightChunk06",
+      "source_sha256": "90538895b9466de5d8bf4fa9f208eab9078bc63114a3944f982bd578cbd60bdc",
+      "elapsed_seconds": 22.422
+    },
+    {
+      "module": "SequentialUnweightedRightChunk07",
+      "source_sha256": "cc5f0a873bf7df716bde21637c3c41909d5f5038589e4ee21361a71a83be703a",
+      "elapsed_seconds": 22.094
+    },
+    {
+      "module": "SequentialUnweightedRightChunk08",
+      "source_sha256": "a6ba5c8a0810e17eaefb54ef3c8cfd7bd116ce4e3b683df8793efae6da619a73",
+      "elapsed_seconds": 22.125
+    },
+    {
+      "module": "SequentialUnweightedRightChunk09",
+      "source_sha256": "53cea0737261b160ec5369e93474880bd8286872562b7147add29408197bd8bb",
+      "elapsed_seconds": 22.313
+    },
+    {
+      "module": "SequentialUnweightedRightChunk10",
+      "source_sha256": "dbf5ee9b057d14859e34f05e3632dc28a7e1a40049f834ce6c38f97ad3a00bbb",
+      "elapsed_seconds": 21.969
+    },
+    {
+      "module": "SequentialUnweightedRightChunk11",
+      "source_sha256": "d6f42877e88ead3a437ed67a182a73eea1cd7b81825022f1294c6092f8f84c86",
+      "elapsed_seconds": 22.422
+    },
+    {
+      "module": "SequentialUnweightedRightChunk12",
+      "source_sha256": "592076b84d3754fa6115a06e7d40c4f7bc19a52cb6a22bddade4cc73444f188b",
+      "elapsed_seconds": 22.11
+    },
+    {
+      "module": "SequentialUnweightedRightChunk13",
+      "source_sha256": "8fa4b04f09f19a4ef34d44a8de16a418e4e3b6f3c40ac5cc5b4a33f23a5017b5",
+      "elapsed_seconds": 21.969
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk02",
+      "source_sha256": "636707a7b9bd26825df3bf980a04085f6729652176b87e7abb0681903480e0d1",
+      "elapsed_seconds": 26.922
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk03",
+      "source_sha256": "d30599a0ad6bf6750a9929191d8833d22af74a533b3b0b2c519653befee6fdbf",
+      "elapsed_seconds": 23.437
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk04",
+      "source_sha256": "446c01b5d9840929fa3311e1ba2e6138cdba5fd84ae42d03a78e17822bb1051e",
+      "elapsed_seconds": 21.718
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk05",
+      "source_sha256": "7d462649ea5f3349f5e73be005cb4d11e922dc0f69f1ff3070eb290ac6a72fdd",
+      "elapsed_seconds": 21.515
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk07",
+      "source_sha256": "31d5908a72d5ae4f6f7db258bd9bf6e2f0191cd1c54f3e2a486701a816ee59b2",
+      "elapsed_seconds": 21.391
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk08",
+      "source_sha256": "13e024d0a38c918439b5ffc21fc76c625e6784929649a4d81223de479d859376",
+      "elapsed_seconds": 20.36
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk09",
+      "source_sha256": "b78a4bf9f082da995183191783e99ad0ce6822e462f9cfe7a71ef0fce363bb7d",
+      "elapsed_seconds": 20.125
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk10",
+      "source_sha256": "81a8aeff9f08b7632c767fe801ab6ebd6551f66d81fc876bd23c41435c7cb81d",
+      "elapsed_seconds": 20.125
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk11",
+      "source_sha256": "a9fe256157c23471c7c73652e8a89b61bb0e42cbb65b2e3954ecec89f6d10d7c",
+      "elapsed_seconds": 20.312
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk12",
+      "source_sha256": "df27d90336992968653981d1d2d88c4851083ca644ec5ff263345fb69b744a4c",
+      "elapsed_seconds": 18.797
+    },
+    {
+      "module": "SequentialUnweightedLeftChunk13",
+      "source_sha256": "765587c5373ed0364efc10537aa9628335bc707a0fe9ec0b322d1fd865978dba",
+      "elapsed_seconds": 17.516
+    },
+    {
+      "module": "SharedUnweightedData",
+      "source_sha256": "84b837eb7a8a9c7fb99bf0de8006b5be1fcc7da5f581e0c091da65dfc38d7148",
+      "elapsed_seconds": 14.437
+    },
+    {
+      "module": "SharedUnweightedAcceptedRows",
+      "source_sha256": "d4b3efcf11d53bd987acea0a0796415aa7118f619e7d89aed892b6671fdfe293",
+      "elapsed_seconds": 24.656
+    },
+    {
+      "module": "SharedUnweightedMissingLeft00_03",
+      "source_sha256": "a58ea8db145e395b4afb222d7d6d66a2ef621ca444bb9cac793e336a7f792100",
+      "elapsed_seconds": 16.703
+    },
+    {
+      "module": "SharedUnweightedMissingLeft04_07",
+      "source_sha256": "ff3e4aa32e3df769c3f545b13d475224374a4660fd604a68142ecdc13d213317",
+      "elapsed_seconds": 16.953
+    },
+    {
+      "module": "SharedUnweightedMissingLeft08_11",
+      "source_sha256": "495ddc3a10e802c8746ad7d6b8a8d8151a209b07a03c0a30f97887f72e1ef5db",
+      "elapsed_seconds": 16.594
+    },
+    {
+      "module": "SharedUnweightedMissingLeft12_15",
+      "source_sha256": "a32584316332bfd61993429893fc5595fa199a601885d1885a761012d1856e0e",
+      "elapsed_seconds": 18.281
+    },
+    {
+      "module": "SharedUnweightedMissingLeft16_19",
+      "source_sha256": "b098abf4b6fe10a0f509fca1f3cec2c799202d0a2d6201ce746a471979ac6a0c",
+      "elapsed_seconds": 28.672
+    },
+    {
+      "module": "SharedUnweightedMissingLeft20_23",
+      "source_sha256": "4a28df599587e86b81a90a4a6c6cc5d74d584a02208f43ee6fca14c6e65145df",
+      "elapsed_seconds": 20.625
+    },
+    {
+      "module": "SharedUnweightedMissingLeft24_27",
+      "source_sha256": "ab3b6b6bf4fdfc10297f3ea5e4c10bb8b59ecc1323f8e459b4544acb912477cb",
+      "elapsed_seconds": 27.718
+    },
+    {
+      "module": "SharedUnweightedMissingLeft28_31",
+      "source_sha256": "fdd2ddee5ef10c7ba9a6ddaca67f8abb1186b47650f311dded8cf7764f43565a",
+      "elapsed_seconds": 18.641
+    },
+    {
+      "module": "SharedUnweightedMissingLeft32_33",
+      "source_sha256": "655fffac3da9fd7860faa91e8195bc381ae7a9cf0b720bda6cb602433078ba5b",
+      "elapsed_seconds": 15.297
+    },
+    {
+      "module": "SharedUnweightedMissingLeft54_57",
+      "source_sha256": "01245d2484664e50fde39752b5c785352d66a7846004bb51f45f95f5c540104c",
+      "elapsed_seconds": 19.422
+    },
+    {
+      "module": "SharedUnweightedFullProductsRound15",
+      "source_sha256": "c52ed8fb5e15c4e2bf81f83aca3e8bf1221472f2693c1ace3721eb01fe64f0cb",
+      "elapsed_seconds": 130.484
+    },
+    {
+      "module": "SharedUnweightedMatrixCertificateRound15",
+      "source_sha256": "97a6e1ddbf3fc84bd4c33c904f6bfae55dfc874cc15c1ecbc32b20599b019352",
+      "elapsed_seconds": 116.906
+    },
+    {
+      "module": "ActualUnweightedSOSLoss",
+      "source_sha256": "cfebbcfeedbfb3afdfd19793e64829cf8a187170e752335dd7f691cd0b4074d1",
+      "elapsed_seconds": 59.063
+    },
+    {
+      "module": "SparseGramSemanticsRound16",
+      "source_sha256": "584890594839db270d47810a0d7a872f41ebf696f1238b3f98c2500047a28ca7",
+      "elapsed_seconds": 50.391
+    },
+    {
+      "module": "UnweightedSparseRowsDataRound16",
+      "source_sha256": "9ef306a5d4227b64d06f99e06d30935657013952205a4c988f434f998da37d65",
+      "elapsed_seconds": 50.203
+    },
+    {
+      "module": "UnweightedSparseRowsPilotRound16",
+      "source_sha256": "f6dc03722481fd62bf497d77d8bdc108f294a9420e8fcca0f5b9402e4f13c951",
+      "elapsed_seconds": 108.515
+    },
+    {
+      "module": "UnweightedSparseRows00_11Round16",
+      "source_sha256": "3c2f2cb7faf4882af00fb8a82faa24efdaa4c1fbc3fcd8b7d5ea04e608399168",
+      "elapsed_seconds": 254.563
+    },
+    {
+      "module": "UnweightedSparseRows12_23Round16",
+      "source_sha256": "3e9be83c3d25c496d9ee4b24372797a9cf2ce7258fffe4fa9ccc759b11e22065",
+      "elapsed_seconds": 295.61
+    },
+    {
+      "module": "UnweightedSparseRows24_35Round16",
+      "source_sha256": "dc9210f0a18baeba702ba7d11dba994f002dab642f663f79f58bfb525626146f",
+      "elapsed_seconds": 251.609
+    },
+    {
+      "module": "UnweightedSparseRows36_47Round16",
+      "source_sha256": "160984db1ffe6662d038ecfa44483d69650fac8cfd58ab2d2f73fb343dd2aad0",
+      "elapsed_seconds": 229.063
+    },
+    {
+      "module": "UnweightedSparseRows48_59Round16",
+      "source_sha256": "19a66c11a61bd7170dcc4ae279c45fe60ea2186ed580b2c1f8cfcc1b69bcd4fa",
+      "elapsed_seconds": 316.985
+    },
+    {
+      "module": "UnweightedSparseRows60_71Round16",
+      "source_sha256": "4fcff206ea64b9709dfeca3ad2b2c9f613f2dae273dfcdd069f3f5ed2d7e03b2",
+      "elapsed_seconds": 255.891
+    },
+    {
+      "module": "UnweightedSparseRows72_83Round16",
+      "source_sha256": "e658816d5b5e4be00b2648376596ff5d74d4ce5b46f66224bc242f8164a8125d",
+      "elapsed_seconds": 219.594
+    },
+    {
+      "module": "SparseCoefficientSumRound16",
+      "source_sha256": "4726577100fcd7f37cee36f791816360295947b3ff90806f4448f4153ce00c69",
+      "elapsed_seconds": 43.437
+    },
+    {
+      "module": "SparseGramSupportRound16",
+      "source_sha256": "3df9633e2dd7afd98fbd0a51a7bbf6fb9e62ad935a5f2d63ffe716fd0f14b0aa",
+      "elapsed_seconds": 45.031
+    },
+    {
+      "module": "UnweightedSparseCoefficientMergeRound16",
+      "source_sha256": "2357fbf99794710ec7eb71f94dc7589f9ad26cc54ccffc5130eb787cff62ab6a",
+      "elapsed_seconds": 136.797
+    },
+    {
+      "module": "SequentialWeightedRightProduct",
+      "source_sha256": "1cd8154bc78e5e752b7e2c1fd6b7f7fed7c62ac1942e4f3ea78def350be7917a",
+      "elapsed_seconds": 105.516
+    },
+    {
+      "module": "SequentialWeightedLeftProduct",
+      "source_sha256": "b9ce75722e13141731c69809086f6fa32df5d8380c39074ea3987ad99c981ca2",
+      "elapsed_seconds": 104.516
+    },
+    {
+      "module": "SequentialWeightedMatrixCertificate",
+      "source_sha256": "3c2927a2fe0aaf82669f7b8bcee6173ca40a945749291909e2f1b554c3381582",
+      "elapsed_seconds": 130.359
+    },
+    {
+      "module": "SequentialCutoffRightProduct",
+      "source_sha256": "2339349f5781cf9254c1c292c134cf63384299800cb2b8ac80cb9c2447e067d0",
+      "elapsed_seconds": 102.203
+    },
+    {
+      "module": "SequentialCutoffLeftProduct",
+      "source_sha256": "3b569233edb87e04740cb46a1210413bb6d7cff587e60c50c86e73105012e410",
+      "elapsed_seconds": 105.25
+    },
+    {
+      "module": "SequentialCutoffMatrixCertificate",
+      "source_sha256": "dbebfbbafa2f23298ead13d66121b5e8162c41b1df678b1c303c8986219bad51",
+      "elapsed_seconds": 132.469
+    },
+    {
+      "module": "ThreePointDomain",
+      "source_sha256": "629c4106a02f531fd0afd40f7ac4bd729a1fd05f7ee3251908203ec8b89ebbff",
+      "elapsed_seconds": 47.875
+    },
+    {
+      "module": "Actual56SOSLoss",
+      "source_sha256": "62f531e516571f861b5f2887d3787d9be62fc372c493f0bdf99810fd98ac1ccc",
+      "elapsed_seconds": 42.032
+    },
+    {
+      "module": "SequentialDeltaRightProduct",
+      "source_sha256": "4e722f32d50beb72588325e69898d53bfe45c3de67df470c5e72035c0869c428",
+      "elapsed_seconds": 22.234
+    },
+    {
+      "module": "SequentialDeltaLeftProduct",
+      "source_sha256": "8566ebe1e1529c7af1db81d3ce3bbdf93125a3449a1d430fc1121431577abb76",
+      "elapsed_seconds": 45.562
+    },
+    {
+      "module": "SequentialDeltaMatrixCertificate",
+      "source_sha256": "b49d8c9b5372d5e4429b54cf10d7267c1a7b2caa6df3b011eb8d9380afa0e09a",
+      "elapsed_seconds": 41.453
+    },
+    {
+      "module": "ActualDeltaSOSLoss",
+      "source_sha256": "80827dee90cd7490cab12b3bbf437e4342dca21b6e4eca19da9957f56ecacfb4",
+      "elapsed_seconds": 52.719
+    },
+    {
+      "module": "OtherSparseGramBindingsRound16",
+      "source_sha256": "cfb7128af470a85a251e076affa5a58432a65f90b5a6c0b3c3e0fd66d6c94853",
+      "elapsed_seconds": 29.75
+    },
+    {
+      "module": "SparseSymmetrizationRound16",
+      "source_sha256": "de98c19efc843e8d2ea5045af1430fa8192e00cb733e6304290bd650c2bdaaff",
+      "elapsed_seconds": 56.891
+    },
+    {
+      "module": "CoefficientDomainRound17",
+      "source_sha256": "8cfa44421813739525b5f596fee9b926335eef37bb56a966bef6a6a62c77d18b",
+      "elapsed_seconds": 82.219
+    },
+    {
+      "module": "RIntegerPolynomialSemanticsRound17",
+      "source_sha256": "3091e6a4d2cacc8763f1f45f1ce418372626ac1b4c458558febef5a92483f897",
+      "elapsed_seconds": 27.531
+    },
+    {
+      "module": "SparseIntegerPolyRound22",
+      "source_sha256": "d1ba3caf4da8461a833bc2995d1f12fbf53db19f0f16b23b0619f4130976fe9a",
+      "elapsed_seconds": 33.875
+    },
+    {
+      "module": "SparseMergeRound22",
+      "source_sha256": "9b4bfb58b60fc1d537c3a5b1374c7e63e25017e6242ceca741862bde67d4725b",
+      "elapsed_seconds": 38.546
+    },
+    {
+      "module": "M36Normalization",
+      "source_sha256": "36f1537390e1f1a9627088787ebc890e3ae32a58d71fc14cb6080945f820ad9d",
+      "elapsed_seconds": 54.984
+    },
+    {
+      "module": "M36PolynomialBridge",
+      "source_sha256": "4e37f39c75530519cad917f68252cdaca41e859469918cb8630651a63708b09a",
+      "elapsed_seconds": 56.047
+    },
+    {
+      "module": "M36RBlockBridge",
+      "source_sha256": "e86d792c9480a3a24774ee213e7568b7ba7290d87d62ec82c74a890f04530d85",
+      "elapsed_seconds": 35.922
+    },
+    {
+      "module": "M36TermOperations",
+      "source_sha256": "e8733bd85fff63c6b0fd5d57fcec31e1bb98a18696a6e866e19ce240e697f255",
+      "elapsed_seconds": 26.328
+    },
+    {
+      "module": "ScalarListSemanticsRound15",
+      "source_sha256": "a7956ccd946b2c8b5a5472c1824b5a112661dd998b5e4489336c3c408d870eaa",
+      "elapsed_seconds": 33.796
+    },
+    {
+      "module": "M36ScalarPolynomial",
+      "source_sha256": "c75608fa0339cc3c5e4c71f65136cd565e64f960136a2fca1f9468e75691e313",
+      "elapsed_seconds": 89.234
+    },
+    {
+      "module": "M36ScalarCoefficientSupport",
+      "source_sha256": "44fde01c089998edebf1e801fbaf4ce95be44bbd03039ea2aacdaa0910c606b8",
+      "elapsed_seconds": 41.141
+    },
+    {
+      "module": "M36ActualScalarList",
+      "source_sha256": "3fdf270f9eb8931f1a8b2e5e7d49b56e5e6ffcf894429aa1437acedf37166608",
+      "elapsed_seconds": 128.859
+    },
+    {
+      "module": "M36MinorantS",
+      "source_sha256": "9d14c9d4f152e174ff296c19f89305d00cb34fef71fcf08dac505fa3889e46c0",
+      "elapsed_seconds": 122.391
+    },
+    {
+      "module": "M36MinorantTwo",
+      "source_sha256": "d7a089a2ca9f225a1bb7811c6c08728b09273863a60b0c51ef8417e79a599dcb",
+      "elapsed_seconds": 118.25
+    },
+    {
+      "module": "QuantitativeConicBridge",
+      "source_sha256": "cc46178f1f298049b5c141761c0f0c8de84fd9bde6482caf2e29b7369bbef610",
+      "elapsed_seconds": 52.125
+    },
+    {
+      "module": "BernsteinBounds",
+      "source_sha256": "c04592153d22d936dd94c58417bd0035115dce58c1170fa0cfa3a80edfb5efb0",
+      "elapsed_seconds": 49.063
+    },
+    {
+      "module": "M36ActualScalarBounds",
+      "source_sha256": "c55c5f804e2743d5f91780f782cefb3a83481b2ee268065f7216d3693adc030a",
+      "elapsed_seconds": 55.453
+    },
+    {
+      "module": "Cutoff1935BudgetRound36",
+      "source_sha256": "d96e97416c0352d0bbe2ff3e4160abd9fd868e94e9f657322f6e1f7a5aaacc37",
+      "elapsed_seconds": 49.234
+    },
+    {
+      "module": "M36ScalarListMinorantLoss",
+      "source_sha256": "8fc35e368f293b562feb86c81109ab85db4622061c58b5bb53472ca0f58fa087",
+      "elapsed_seconds": 52.89
+    },
+    {
+      "module": "M36ActualScalarDistance",
+      "source_sha256": "928225f26759c013f4e5e84f527e6dbf2aa072c3cdf4d03ce9638db8392417f8",
+      "elapsed_seconds": 53.391
+    },
+    {
+      "module": "M37ScalarBindings",
+      "source_sha256": "23065bde35069632651482f7b06d632ef2385973660ae3cca0659c1550fc383a",
+      "elapsed_seconds": 54.703
+    },
+    {
+      "module": "M36X0",
+      "source_sha256": "e41347991e899510c6c5d04e08f6f025f6bfc9d0ce12ebc8925311f8112264b5",
+      "elapsed_seconds": 55.875
+    },
+    {
+      "module": "M36X1",
+      "source_sha256": "0781d4f6a7348e5af2566ef3f63f666e4c446b5650398287a13176e5c46ff91d",
+      "elapsed_seconds": 53.859
+    },
+    {
+      "module": "M36X2",
+      "source_sha256": "304c944f3bd42c13a98bf7604a7bf9a446bdb7b08c1de1a2ff71a151439931c5",
+      "elapsed_seconds": 52.297
+    },
+    {
+      "module": "M36X3",
+      "source_sha256": "dbeb9f9a97ac19f04ed75009549324ab79d68f76620832b99e51037048fa252b",
+      "elapsed_seconds": 51.437
+    },
+    {
+      "module": "M36X4",
+      "source_sha256": "be88917879a4363a4ecf3e5c716c4651ef84e1f2c4dd7a3634f1754ec3647d82",
+      "elapsed_seconds": 51.813
+    },
+    {
+      "module": "M36X5",
+      "source_sha256": "1a5739f3bc12fcd49cd950895e00a41c28399f9ff9212e105a04ed5cc5165544",
+      "elapsed_seconds": 50.312
+    },
+    {
+      "module": "M36X6",
+      "source_sha256": "17a73405def9cef93f5655b0d73c61ada567a75b1d81b18b8479583f465f93d7",
+      "elapsed_seconds": 51.25
+    },
+    {
+      "module": "M36RBundle",
+      "source_sha256": "b83f015f37371c8265db4ba0edfc8a4dd3c6133cb7b6001e7c59031181071b63",
+      "elapsed_seconds": 417.062
+    },
+    {
+      "module": "M36UnweightedRightColumns",
+      "source_sha256": "a10dcb6bf1c471cc0847e47338f4456db59533be7de57df859f27abdbcc686d4",
+      "elapsed_seconds": 47.375
+    },
+    {
+      "module": "M36UnweightedRightChunk00",
+      "source_sha256": "684204a48811ed97ddf13b735b725b781dbff585457ef9f76edbf91ef3f98644",
+      "elapsed_seconds": 44.5
+    },
+    {
+      "module": "M36UnweightedRightBundle",
+      "source_sha256": "58e956347feeba10d4c575c6732a9b357fe6cf02a7a6a02cd165df5d2e92d23d",
+      "elapsed_seconds": 305.735
+    },
+    {
+      "module": "M36UnweightedLeftBundle",
+      "source_sha256": "fff0749fecaef093564f499ffc38a942c902db8dc8f2226269dfab0d9114814a",
+      "elapsed_seconds": 442.828
+    },
+    {
+      "module": "M36Unweighted",
+      "source_sha256": "a3b9935dd0b3fc196b82c16f3e2a3fb9c3c538c301d5469ad1196fa8e62cbc74",
+      "elapsed_seconds": 376.375
+    },
+    {
+      "module": "M36SortedGram",
+      "source_sha256": "956fff2c17ee3101b1f633c694dd175f235ad0a8696b3b9e3b25d09de7d38317",
+      "elapsed_seconds": 26.547
+    },
+    {
+      "module": "M38UnweightedGramCore",
+      "source_sha256": "aa7fc88af332968e3e4277dc93afbb478520809ec1014153fef65857ed4e5675",
+      "elapsed_seconds": 191.437
+    },
+    {
+      "module": "M36WeightedRightBundle",
+      "source_sha256": "150c603189acdeacaebd56f43a8a577ad4f3e9e000d869afa2e14a6c219a7e70",
+      "elapsed_seconds": 118.218
+    },
+    {
+      "module": "M36WeightedLeftBundle",
+      "source_sha256": "934fb175c41c8db08a521328a781d7e7210fb8cf6954af1ffda8a7b39d2a6c5f",
+      "elapsed_seconds": 145.765
+    },
+    {
+      "module": "M36Weighted",
+      "source_sha256": "8edac2b3734a177368423fe0a360721d1f222dc4a29579ae3c59e999743baafb",
+      "elapsed_seconds": 131.593
+    },
+    {
+      "module": "M36DeltaRightBundle",
+      "source_sha256": "db7e5cf9694f0894e00c511bd7942499ae8a53d2baa35ece8913a030adc5c463",
+      "elapsed_seconds": 61.781
+    },
+    {
+      "module": "M36DeltaLeftBundle",
+      "source_sha256": "296cf857ff7219f92d4955064a1f42c322c0fa0e8c20ad2e1648e10471584ac2",
+      "elapsed_seconds": 70.031
+    },
+    {
+      "module": "M36Delta",
+      "source_sha256": "72f156e2a3752202677d9cb9475fbe6911f4448af625ec69bd7c8eea1953ab68",
+      "elapsed_seconds": 87.594
+    },
+    {
+      "module": "M36CutoffRightBundle",
+      "source_sha256": "a59ee6bda3c4c7465eb61dafb46cbff76e7d19472fe7acd35afec109ad5ffc4d",
+      "elapsed_seconds": 124.75
+    },
+    {
+      "module": "M36CutoffLeftBundle",
+      "source_sha256": "a93c5cc03cf2f1d89a0b10d4f233861abac3425b1072836ceff6877837e77577",
+      "elapsed_seconds": 157.797
+    },
+    {
+      "module": "M36Cutoff",
+      "source_sha256": "e58a100a1902278dd93cb6b3d06246f455c47ff2f50173668c5634933f9afaeb",
+      "elapsed_seconds": 139.266
+    },
+    {
+      "module": "M38ActualMatrixSemantics",
+      "source_sha256": "523a46cf2c0b370771aec7e3510fad52cb47441d565f398de748ed53249979b0",
+      "elapsed_seconds": 64.485
+    },
+    {
+      "module": "M36UnweightedGramBundle",
+      "source_sha256": "fba3853d2c2b354e529f200d7238a2689ce6975b9f03c4d7a1f556b639b09371",
+      "elapsed_seconds": 53.11
+    },
+    {
+      "module": "M38WeightedGramCore",
+      "source_sha256": "de9f796118c71b20766989476129282659524fe8770fbbaff8109a2bec80a819",
+      "elapsed_seconds": 106.61
+    },
+    {
+      "module": "M36WeightedGramBundle",
+      "source_sha256": "b40293388b81f0c05d2e077f51d5af21af32724def08e63c3933dff94a9c03b1",
+      "elapsed_seconds": 48.609
+    },
+    {
+      "module": "M38DeltaGramCore",
+      "source_sha256": "13a6d7cab264f91128ecc91b0f35ecbd97dd895dd3c7f059feb63d55b80c0176",
+      "elapsed_seconds": 71.859
+    },
+    {
+      "module": "M36DeltaGramBundle",
+      "source_sha256": "a5ffb1ca53d560c3e419d6f348f40dfb82fc856c6f715de8fb9ae1da9a02ea5b",
+      "elapsed_seconds": 49.781
+    },
+    {
+      "module": "M38CutoffGramCore",
+      "source_sha256": "1f50073f54219be308b9b8d04559121dc60acdc12821f694fe1ca71187488cbf",
+      "elapsed_seconds": 116.687
+    },
+    {
+      "module": "M36CutoffGramBundle",
+      "source_sha256": "e8ca3cf986cd599db60940e494abcc3823acb8b1ca8b3b4bf31f4807b989d7d5",
+      "elapsed_seconds": 50.172
+    },
+    {
+      "module": "M39CutoffDomain",
+      "source_sha256": "a47da92a467d616cf5e47baab9c0049e11f8d07579460ae258a9a64557fb7f14",
+      "elapsed_seconds": 52.328
+    },
+    {
+      "module": "M39UnweightedPhysics",
+      "source_sha256": "5086587ccaea9cbe3fb99cfd450cef83b5c0fd6c9faa6b7f66bc31bb48fd19ec",
+      "elapsed_seconds": 52.75
+    },
+    {
+      "module": "M39DeltaPhysics",
+      "source_sha256": "0f94a9d4346d8d06ff11f5c9bb18bd0a46f0bce2289019513ee5917fb81d0362",
+      "elapsed_seconds": 52.844
+    },
+    {
+      "module": "M39WeightedPhysics",
+      "source_sha256": "d932863322f1831e771637154b90476090944f6587108e616de840dd39c3bcdd",
+      "elapsed_seconds": 54.546
+    },
+    {
+      "module": "M39ChordCutoff",
+      "source_sha256": "be53ce5dd287e8d27f3801d47bcf8d99cad6a58445e0c32ea5dfd5b35c448546",
+      "elapsed_seconds": 57.063
+    },
+    {
+      "module": "IntegerPolynomialBoundsRound17",
+      "source_sha256": "4028fe056110c6e3bd63e3325c3f50d0fc7a3f82f320f4aaf49d1eb791923328",
+      "elapsed_seconds": 20.235
+    },
+    {
+      "module": "M38BoolSupport",
+      "source_sha256": "6fe6cf5a99d898d916787822fd81d021d76434c561abf973a56acafa18f3e9d6",
+      "elapsed_seconds": 9.141
+    },
+    {
+      "module": "M39ResidualData",
+      "source_sha256": "3c80e863eb0f7c015f686621565e75957d7d41bee1d8e3758ea0638933c23722",
+      "elapsed_seconds": 30.297
+    },
+    {
+      "module": "M39ResidualMass",
+      "source_sha256": "4787ac9c99e2a191edd76c0cc1b89696aadec4a55e58287ebc72a0001667433e",
+      "elapsed_seconds": 27.422
+    },
+    {
+      "module": "M39ResidualSupport",
+      "source_sha256": "ea7aca6dd96c69d9a38ea71d7fa1d01ce9d5197c2946544e544392a6f25688a8",
+      "elapsed_seconds": 27.0
+    },
+    {
+      "module": "M39ResidualBounds",
+      "source_sha256": "1d18d85f2a785d7e68f24ba24c0925ff52e346ec19712af4b9453930dd0ff149",
+      "elapsed_seconds": 20.063
+    },
+    {
+      "module": "M39ResidualBudget",
+      "source_sha256": "c8326849eacaa899eb2b22d6cbd6b246cc61f18b221a4f75bdeec5de8fdc824f",
+      "elapsed_seconds": 41.141
+    },
+    {
+      "module": "M39ConicValues",
+      "source_sha256": "f811018037297283ee978c3d8f6812fbbdf9baff1cafb1200915fdf1fb240961",
+      "elapsed_seconds": 41.828
+    },
+    {
+      "module": "M36PhysicalBundle",
+      "source_sha256": "3b5ac0dd3077faeec347c036002872398a1be17147a89980efecdc1c89f0b75d",
+      "elapsed_seconds": 27.5
+    },
+    {
+      "module": "M38CoefficientLookup",
+      "source_sha256": "c4b1e106b5673e19995e209bb26e1c7603884bdf6a4f7c0feffdb36e5b6f19a2",
+      "elapsed_seconds": 79.375
+    },
+    {
+      "module": "M38TableBridge",
+      "source_sha256": "0f8a6521ad441b6a6d4c57a07004dfc2fc64826c61aa71d1f6ac113c736b8d49",
+      "elapsed_seconds": 82.079
+    },
+    {
+      "module": "M38CertificateData",
+      "source_sha256": "6c756b775a97769f53a351e683f32e670a7132e6e079e563adc9ffae018d5848",
+      "elapsed_seconds": 74.032
+    },
+    {
+      "module": "M38UnweightedTableData",
+      "source_sha256": "337701f13f1e13074193d3511504ca15e7d9eb25f7979a66543e692eeda2b5a8",
+      "elapsed_seconds": 56.593
+    },
+    {
+      "module": "M38UnweightedTableMatch",
+      "source_sha256": "ca190d6149a2830bd73f4a2344335e7fa6ea74ea99d24a8c4d92c911755cabb0",
+      "elapsed_seconds": 128.688
+    },
+    {
+      "module": "M38UnweightedTable",
+      "source_sha256": "8f7d1faf1086d55c19d6ce5e3568069383c06712464dcc2011cea28fbeded5fe",
+      "elapsed_seconds": 27.688
+    },
+    {
+      "module": "M38WeightedProduct",
+      "source_sha256": "0b6dfa740c92660f78d6151a72b20b08779da23012152a693e0b08c1ab25a858",
+      "elapsed_seconds": 50.61
+    },
+    {
+      "module": "M38WeightedTableData",
+      "source_sha256": "fbbba36af4f5392d8aa748630aba7b055d78b38f8f4bc27aaa0653ead3667605",
+      "elapsed_seconds": 68.922
+    },
+    {
+      "module": "M38WeightedTableChunk0",
+      "source_sha256": "935cad00d9f8cebffba664e0afefd5c3a10b1cb9877e2f1b738602519fdad8a3",
+      "elapsed_seconds": 61.078
+    },
+    {
+      "module": "M38WeightedTableChunk1",
+      "source_sha256": "259a82aed79d40aa07c6ff0874d40a24780f22e9c2cb895d17ba09da1e9cdde9",
+      "elapsed_seconds": 61.609
+    },
+    {
+      "module": "M38WeightedTableChunk2",
+      "source_sha256": "40fefe090f4204a3a82d7430857cd8ffe479ed06045a379c5b247fa30a9ea8e6",
+      "elapsed_seconds": 64.656
+    },
+    {
+      "module": "M38WeightedTableChunk3",
+      "source_sha256": "4a4223e5ee8a96d7415954a01bb6320286a51d3489aa1a3ff6a6b612037b79fc",
+      "elapsed_seconds": 62.016
+    },
+    {
+      "module": "M38WeightedTableChunk4",
+      "source_sha256": "7dc8fae8772a963b1c1d8f5ae66d5eff8e3d95955b090e30f46559c8cf61c300",
+      "elapsed_seconds": 65.297
+    },
+    {
+      "module": "M38WeightedTableChunk5",
+      "source_sha256": "01405890418244855c423a2440683435e3dab0f8378a0afc09a6dab5a1643f3c",
+      "elapsed_seconds": 62.985
+    },
+    {
+      "module": "M38WeightedTableChunk6",
+      "source_sha256": "222ae175c97f4871e12b391ff7096c23184b3209f1c1834dbfdfd4eda58be876",
+      "elapsed_seconds": 64.187
+    },
+    {
+      "module": "M38WeightedTable",
+      "source_sha256": "3d434720626b00cf07f8862fec568a93417cbee7d987dfb038ed8a03e0a8b252",
+      "elapsed_seconds": 50.062
+    },
+    {
+      "module": "M38DeltaProduct",
+      "source_sha256": "7344c7996d7f648443aa6e7339d08ff11a31d40174247431f335fde0cf542ca8",
+      "elapsed_seconds": 53.891
+    },
+    {
+      "module": "M38DeltaTableData",
+      "source_sha256": "2f9918c0569aade35e429ef906e7a6fda40a6829c9706b91db9f2fc50312ca0a",
+      "elapsed_seconds": 63.282
+    },
+    {
+      "module": "M38DeltaTableChunk0",
+      "source_sha256": "89794f9b5993fa2cd0259c7592a2e123b3493f95a765dd9c08d1265eaf3e5280",
+      "elapsed_seconds": 59.875
+    },
+    {
+      "module": "M38DeltaTableChunk1",
+      "source_sha256": "dca36900228d5adfc4cff4d05821e8e9454c970d4a0c94c43bc3b510259c6eff",
+      "elapsed_seconds": 59.984
+    },
+    {
+      "module": "M38DeltaTableChunk2",
+      "source_sha256": "0800cd394805a1964765e42580b5280d1e4d73bf057eb95b57bd9165a661b67d",
+      "elapsed_seconds": 57.453
+    },
+    {
+      "module": "M38DeltaTableChunk3",
+      "source_sha256": "be429755c85beed4fd4be08795e879ab242355c40c8a43d29030d79aba660a44",
+      "elapsed_seconds": 58.422
+    },
+    {
+      "module": "M38DeltaTableChunk4",
+      "source_sha256": "3c13abc5191e9c022ed3715802d38848319cb5b6419108b6adc316792d97657e",
+      "elapsed_seconds": 71.344
+    },
+    {
+      "module": "M38DeltaTableChunk5",
+      "source_sha256": "ee39d581bb196584714b5678eb4649dc6ac1a34cb83357e969aaf6630365ba86",
+      "elapsed_seconds": 24.563
+    },
+    {
+      "module": "M38DeltaTableChunk6",
+      "source_sha256": "1e27d760cb6488958b0c22aca7f80262a14534ebe0fb2b6e9b3836b7f0bb46d0",
+      "elapsed_seconds": 37.922
+    },
+    {
+      "module": "M38DeltaTable",
+      "source_sha256": "d8934d30d50b4701b66c579880ebccc4fe024b1224fe1fa59b31f6b7545c5618",
+      "elapsed_seconds": 19.0
+    },
+    {
+      "module": "M38CutoffProduct",
+      "source_sha256": "92c2dc9bd6e1432822676e637d43f83f9b37881452078d4b7c6b952d3c15c581",
+      "elapsed_seconds": 36.703
+    },
+    {
+      "module": "M38CutoffTableData",
+      "source_sha256": "be37d543ca265d62ec6a088f5e9c9d398a50a15bc748f05dfea3c04a04a3f509",
+      "elapsed_seconds": 38.359
+    },
+    {
+      "module": "M38CutoffTableMatch",
+      "source_sha256": "d9f46e1d03bed5afe7ebda7a65c7618de9145f8131bf32404e1ded9fe60aca6f",
+      "elapsed_seconds": 76.828
+    },
+    {
+      "module": "M38CutoffTable",
+      "source_sha256": "77a4f71a6b2869da775cabd4645c60710ad843b6126cc22b338d0c3578d2a11a",
+      "elapsed_seconds": 28.172
+    },
+    {
+      "module": "M38RSum",
+      "source_sha256": "6defc63eb0bcc18527e80ffdac45fced40801f5ed23e0a6a7fa4d06cb5274aaf",
+      "elapsed_seconds": 18.859
+    },
+    {
+      "module": "M38RTableData",
+      "source_sha256": "b5ca778fbe460d2881d880264ddd85bd5c57c5120dfe6b627838770ec03d4f1b",
+      "elapsed_seconds": 34.89
+    },
+    {
+      "module": "M38RTableMatch",
+      "source_sha256": "fa7ec8096b8cb898e78df612393a72bf7b5930dbe147dccfe4b0aca387bae968",
+      "elapsed_seconds": 65.922
+    },
+    {
+      "module": "M38RTable",
+      "source_sha256": "fd1421bc3539ef0133ad6f4b558839b56025bcd97858b756f62f118523abb9fd",
+      "elapsed_seconds": 48.25
+    },
+    {
+      "module": "M38LHSTableData",
+      "source_sha256": "42494b85d6c51fe5f735ad55ccf82e26202caf4611a186d263710812d56a3dcb",
+      "elapsed_seconds": 50.015
+    },
+    {
+      "module": "M38LHSTableMatch",
+      "source_sha256": "fd77e0832c9c3f77b3333b1f5ffddbb8a53693d22075e7b06d84e47d08eae1ac",
+      "elapsed_seconds": 50.75
+    },
+    {
+      "module": "M38LHSTable",
+      "source_sha256": "02e4da8d87591f111282602f30bcaf0418878b33792d9c52fc72db85ef56966e",
+      "elapsed_seconds": 22.078
+    },
+    {
+      "module": "M38ResidualTableData",
+      "source_sha256": "2637ff24dc190f34facf572fb807884bbdb880f1f4461d71f121291ef4c4eacd",
+      "elapsed_seconds": 41.359
+    },
+    {
+      "module": "M38ResidualTableMatch",
+      "source_sha256": "e96f376409eb27b69af8b538c7d86fb17e0825536f5f58380a16e4bc94570e1d",
+      "elapsed_seconds": 103.453
+    },
+    {
+      "module": "M38ResidualTable",
+      "source_sha256": "fb67a9edd3941ebfe4203dcb9d391504fec94f25eada45bd3488b8dac71094a4",
+      "elapsed_seconds": 48.625
+    },
+    {
+      "module": "M38CompositionNumericData",
+      "source_sha256": "49928c21138c097cff70b5618ea1719a0b467d17fce1c797441f80555fec1310",
+      "elapsed_seconds": 53.046
+    },
+    {
+      "module": "M38NumericChunk0",
+      "source_sha256": "351fd878e3a4a7e882aea0938fb91e782f72dceab0e392e66020b5b5da2582b3",
+      "elapsed_seconds": 51.172
+    },
+    {
+      "module": "M38NumericChunk1",
+      "source_sha256": "7868f1a1f1ad20eae48e93a0efe1815ff133b0844fb96394694130143536e6c2",
+      "elapsed_seconds": 57.0
+    },
+    {
+      "module": "M38NumericChunk2",
+      "source_sha256": "6bb0da03b4421e3dc35cb59118366c019aca6d15f1aec251c46ca7d346a4894b",
+      "elapsed_seconds": 57.5
+    },
+    {
+      "module": "M38NumericChunk3",
+      "source_sha256": "2d8e8b47e2461eee781788634a794cdcb5da53e76f504660b07b78ddf8da582e",
+      "elapsed_seconds": 64.953
+    },
+    {
+      "module": "M38NumericChunk4",
+      "source_sha256": "e55c67ffaac04a230b91e7f44b3b67ff37a494be565fe89f4247e7e10f10e6c5",
+      "elapsed_seconds": 72.609
+    },
+    {
+      "module": "M38NumericChunk5",
+      "source_sha256": "7be52aed3582f9fe7b649d49c39b3379cfb3681a3b1e9ad70dd1581ac030fbb9",
+      "elapsed_seconds": 91.422
+    },
+    {
+      "module": "M38NumericChunk6",
+      "source_sha256": "dfd79ca97da7c882a90345609e7fa71b5447dbb924625f85d51a86b6d1454bd3",
+      "elapsed_seconds": 78.766
+    },
+    {
+      "module": "M38FunctionalComposition",
+      "source_sha256": "45108c3621de1c2a8fa7735859b241511bea3c8b05f664736595d074f64c80c7",
+      "elapsed_seconds": 49.359
+    },
+    {
+      "module": "M36CertificateBindings",
+      "source_sha256": "3ac33666e325e8f380b744bbb59f8cd36fa909d2355f6b1e719d64a02f2715bb",
+      "elapsed_seconds": 95.421
+    },
+    {
+      "module": "M36Chord1935Exclusion",
+      "source_sha256": "b961142cdcdb2a674d50c46b840c33123e216d7979b07aa29dd0ace60b3fd62f",
+      "elapsed_seconds": 50.125
+    }
+  ]
+}
